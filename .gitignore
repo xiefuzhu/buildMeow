@@ -1,0 +1,19 @@
+# Dart / Flutter build output and tool state. The app has its own
+# `app/.gitignore` for the Flutter-specific extras; this covers the core
+# package and anything at the root.
+.dart_tool/
+.packages
+build/
+pubspec.lock.bak
+
+# The compiled probe and timing tools (`dart compile exe tool/...`).
+packages/mapart_core/build/
+
+# Editor and OS noise.
+.idea/
+.vscode/
+*.iml
+*.log
+.DS_Store
+Thumbs.db
+__pycache__/

@@ -1,0 +1,28 @@
+name: mapart_core
+description: >-
+  Pure-Dart core for the "建喵!" Minecraft mapart blueprint generator:
+  map color tables, palette selection, quantization, staircase height
+  solving and map color rendering. Does not depend on Flutter so it can
+  be tested with `dart test`.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  archive: ^4.5.1
+  image: any
+  meta: ^1.19.0
+
+dev_dependencies:
+  lints: any
+  test: any
+
+# Declared so the Flutter app can load these through
+# `packages/mapart_core/assets/...`. `dart test` reads the same
+# files from disk relative to the package root.
+flutter:
+  assets:
+    - assets/colors/
+    - assets/lang/

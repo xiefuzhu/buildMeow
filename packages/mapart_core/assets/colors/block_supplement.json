@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "note": "Full-cube building blocks present in Minecraft 26.1.2 and absent from the vendored MapartCraft table. Each one maps onto a MapColor that table already has — none of them adds a colour. `since` is the first release the block exists in; the palette only offers a block when the selected version is at least that.",
+  "blocks": [
+    {
+      "id": "chiseled_resin_bricks",
+      "displayName": "Chiseled Resin Bricks",
+      "mapColor": "TERRACOTTA_ORANGE",
+      "rgb": [
+        159,
+        82,
+        36
+      ],
+      "flammable": false,
+      "pillar": false,
+      "since": "1.21.4"
+    },
+    {
+      "id": "creaking_heart",
+      "displayName": "Creaking Heart",
+      "mapColor": "COLOR_ORANGE",
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "since": "1.21.4"
+    },
+    {
+      "id": "pale_moss_block",
+      "displayName": "Pale Moss Block",
+      "mapColor": "COLOR_LIGHT_GRAY",
+      "rgb": [
+        153,
+        153,
+        153
+      ],
+      "flammable": true,
+      "pillar": false,
+      "since": "1.21.4"
+    },
+    {
+      "id": "pale_oak_log",
+      "displayName": "Pale Oak Log",
+      "mapColor": "QUARTZ",
+      "rgb": [
+        255,
+        252,
+        245
+      ],
+      "flammable": false,
+      "pillar": true,
+      "since": "1.21.4"
+    },
+    {
+      "id": "pale_oak_planks",
+      "displayName": "Pale Oak Planks",
+      "mapColor": "QUARTZ",
+      "rgb": [
+        255,
+        252,
+        245
+      ],
+      "flammable": true,
+      "pillar": false,
+      "since": "1.21.4"
+    },
+    {
+      "id": "pale_oak_wood",
+      "displayName": "Pale Oak Wood",
+      "mapColor": "STONE",
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": true,
+      "pillar": false,
+      "since": "1.21.4"
+    },
+    {
+      "id": "resin_block",
+      "displayName": "Resin Block",
+      "mapColor": "TERRACOTTA_ORANGE",
+      "rgb": [
+        159,
+        82,
+        36
+      ],
+      "flammable": false,
+      "pillar": false,
+      "since": "1.21.4"
+    },
+    {
+      "id": "resin_bricks",
+      "displayName": "Resin Bricks",
+      "mapColor": "TERRACOTTA_ORANGE",
+      "rgb": [
+        159,
+        82,
+        36
+      ],
+      "flammable": false,
+      "pillar": false,
+      "since": "1.21.4"
+    },
+    {
+      "id": "stripped_pale_oak_log",
+      "displayName": "Stripped Pale Oak Log",
+      "mapColor": "QUARTZ",
+      "rgb": [
+        255,
+        252,
+        245
+      ],
+      "flammable": false,
+      "pillar": true,
+      "since": "1.21.4"
+    },
+    {
+      "id": "stripped_pale_oak_wood",
+      "displayName": "Stripped Pale Oak Wood",
+      "mapColor": "QUARTZ",
+      "rgb": [
+        255,
+        252,
+        245
+      ],
+      "flammable": true,
+      "pillar": false,
+      "since": "1.21.4"
+    }
+  ]
+}

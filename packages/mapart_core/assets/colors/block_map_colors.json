@@ -1,0 +1,10190 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "game": "26.1.2",
+    "clientJarSha1": "4e618f09a0c649dde3fdf829df443ce0b8831e65",
+    "classes": [
+      "net.minecraft.world.level.material.MapColor",
+      "net.minecraft.world.level.block.Blocks"
+    ],
+    "note": "Read out of the game code, not computed from textures. A map shows the MapColor a block is registered with; the texture average is a different number and is not what the map shows."
+  },
+  "mapColors": {
+    "NONE": {
+      "id": 0,
+      "rgb": [
+        0,
+        0,
+        0
+      ]
+    },
+    "GRASS": {
+      "id": 1,
+      "rgb": [
+        127,
+        178,
+        56
+      ]
+    },
+    "SAND": {
+      "id": 2,
+      "rgb": [
+        247,
+        233,
+        163
+      ]
+    },
+    "WOOL": {
+      "id": 3,
+      "rgb": [
+        199,
+        199,
+        199
+      ]
+    },
+    "FIRE": {
+      "id": 4,
+      "rgb": [
+        255,
+        0,
+        0
+      ]
+    },
+    "ICE": {
+      "id": 5,
+      "rgb": [
+        160,
+        160,
+        255
+      ]
+    },
+    "METAL": {
+      "id": 6,
+      "rgb": [
+        167,
+        167,
+        167
+      ]
+    },
+    "PLANT": {
+      "id": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ]
+    },
+    "SNOW": {
+      "id": 8,
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    "CLAY": {
+      "id": 9,
+      "rgb": [
+        164,
+        168,
+        184
+      ]
+    },
+    "DIRT": {
+      "id": 10,
+      "rgb": [
+        151,
+        109,
+        77
+      ]
+    },
+    "STONE": {
+      "id": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ]
+    },
+    "WATER": {
+      "id": 12,
+      "rgb": [
+        64,
+        64,
+        255
+      ]
+    },
+    "WOOD": {
+      "id": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ]
+    },
+    "QUARTZ": {
+      "id": 14,
+      "rgb": [
+        255,
+        252,
+        245
+      ]
+    },
+    "COLOR_ORANGE": {
+      "id": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ]
+    },
+    "COLOR_MAGENTA": {
+      "id": 16,
+      "rgb": [
+        178,
+        76,
+        216
+      ]
+    },
+    "COLOR_LIGHT_BLUE": {
+      "id": 17,
+      "rgb": [
+        102,
+        153,
+        216
+      ]
+    },
+    "COLOR_YELLOW": {
+      "id": 18,
+      "rgb": [
+        229,
+        229,
+        51
+      ]
+    },
+    "COLOR_LIGHT_GREEN": {
+      "id": 19,
+      "rgb": [
+        127,
+        204,
+        25
+      ]
+    },
+    "COLOR_PINK": {
+      "id": 20,
+      "rgb": [
+        242,
+        127,
+        165
+      ]
+    },
+    "COLOR_GRAY": {
+      "id": 21,
+      "rgb": [
+        76,
+        76,
+        76
+      ]
+    },
+    "COLOR_LIGHT_GRAY": {
+      "id": 22,
+      "rgb": [
+        153,
+        153,
+        153
+      ]
+    },
+    "COLOR_CYAN": {
+      "id": 23,
+      "rgb": [
+        76,
+        127,
+        153
+      ]
+    },
+    "COLOR_PURPLE": {
+      "id": 24,
+      "rgb": [
+        127,
+        63,
+        178
+      ]
+    },
+    "COLOR_BLUE": {
+      "id": 25,
+      "rgb": [
+        51,
+        76,
+        178
+      ]
+    },
+    "COLOR_BROWN": {
+      "id": 26,
+      "rgb": [
+        102,
+        76,
+        51
+      ]
+    },
+    "COLOR_GREEN": {
+      "id": 27,
+      "rgb": [
+        102,
+        127,
+        51
+      ]
+    },
+    "COLOR_RED": {
+      "id": 28,
+      "rgb": [
+        153,
+        51,
+        51
+      ]
+    },
+    "COLOR_BLACK": {
+      "id": 29,
+      "rgb": [
+        25,
+        25,
+        25
+      ]
+    },
+    "GOLD": {
+      "id": 30,
+      "rgb": [
+        250,
+        238,
+        77
+      ]
+    },
+    "DIAMOND": {
+      "id": 31,
+      "rgb": [
+        92,
+        219,
+        213
+      ]
+    },
+    "LAPIS": {
+      "id": 32,
+      "rgb": [
+        74,
+        128,
+        255
+      ]
+    },
+    "EMERALD": {
+      "id": 33,
+      "rgb": [
+        0,
+        217,
+        58
+      ]
+    },
+    "PODZOL": {
+      "id": 34,
+      "rgb": [
+        129,
+        86,
+        49
+      ]
+    },
+    "NETHER": {
+      "id": 35,
+      "rgb": [
+        112,
+        2,
+        0
+      ]
+    },
+    "TERRACOTTA_WHITE": {
+      "id": 36,
+      "rgb": [
+        209,
+        177,
+        161
+      ]
+    },
+    "TERRACOTTA_ORANGE": {
+      "id": 37,
+      "rgb": [
+        159,
+        82,
+        36
+      ]
+    },
+    "TERRACOTTA_MAGENTA": {
+      "id": 38,
+      "rgb": [
+        149,
+        87,
+        108
+      ]
+    },
+    "TERRACOTTA_LIGHT_BLUE": {
+      "id": 39,
+      "rgb": [
+        112,
+        108,
+        138
+      ]
+    },
+    "TERRACOTTA_YELLOW": {
+      "id": 40,
+      "rgb": [
+        186,
+        133,
+        36
+      ]
+    },
+    "TERRACOTTA_LIGHT_GREEN": {
+      "id": 41,
+      "rgb": [
+        103,
+        117,
+        53
+      ]
+    },
+    "TERRACOTTA_PINK": {
+      "id": 42,
+      "rgb": [
+        160,
+        77,
+        78
+      ]
+    },
+    "TERRACOTTA_GRAY": {
+      "id": 43,
+      "rgb": [
+        57,
+        41,
+        35
+      ]
+    },
+    "TERRACOTTA_LIGHT_GRAY": {
+      "id": 44,
+      "rgb": [
+        135,
+        107,
+        98
+      ]
+    },
+    "TERRACOTTA_CYAN": {
+      "id": 45,
+      "rgb": [
+        87,
+        92,
+        92
+      ]
+    },
+    "TERRACOTTA_PURPLE": {
+      "id": 46,
+      "rgb": [
+        122,
+        73,
+        88
+      ]
+    },
+    "TERRACOTTA_BLUE": {
+      "id": 47,
+      "rgb": [
+        76,
+        62,
+        92
+      ]
+    },
+    "TERRACOTTA_BROWN": {
+      "id": 48,
+      "rgb": [
+        76,
+        50,
+        35
+      ]
+    },
+    "TERRACOTTA_GREEN": {
+      "id": 49,
+      "rgb": [
+        76,
+        82,
+        42
+      ]
+    },
+    "TERRACOTTA_RED": {
+      "id": 50,
+      "rgb": [
+        142,
+        60,
+        46
+      ]
+    },
+    "TERRACOTTA_BLACK": {
+      "id": 51,
+      "rgb": [
+        37,
+        22,
+        16
+      ]
+    },
+    "CRIMSON_NYLIUM": {
+      "id": 52,
+      "rgb": [
+        189,
+        48,
+        49
+      ]
+    },
+    "CRIMSON_STEM": {
+      "id": 53,
+      "rgb": [
+        148,
+        63,
+        97
+      ]
+    },
+    "CRIMSON_HYPHAE": {
+      "id": 54,
+      "rgb": [
+        92,
+        25,
+        29
+      ]
+    },
+    "WARPED_NYLIUM": {
+      "id": 55,
+      "rgb": [
+        22,
+        126,
+        134
+      ]
+    },
+    "WARPED_STEM": {
+      "id": 56,
+      "rgb": [
+        58,
+        142,
+        140
+      ]
+    },
+    "WARPED_HYPHAE": {
+      "id": 57,
+      "rgb": [
+        86,
+        44,
+        62
+      ]
+    },
+    "WARPED_WART_BLOCK": {
+      "id": 58,
+      "rgb": [
+        20,
+        180,
+        133
+      ]
+    },
+    "DEEPSLATE": {
+      "id": 59,
+      "rgb": [
+        100,
+        100,
+        100
+      ]
+    },
+    "RAW_IRON": {
+      "id": 60,
+      "rgb": [
+        216,
+        175,
+        147
+      ]
+    },
+    "GLOW_LICHEN": {
+      "id": 61,
+      "rgb": [
+        127,
+        167,
+        150
+      ]
+    }
+  },
+  "blocks": {
+    "stone": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "granite": {
+      "mapColor": "DIRT",
+      "mapColorId": 10,
+      "rgb": [
+        151,
+        109,
+        77
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "polished_granite": {
+      "mapColor": "DIRT",
+      "mapColorId": 10,
+      "rgb": [
+        151,
+        109,
+        77
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "diorite": {
+      "mapColor": "QUARTZ",
+      "mapColorId": 14,
+      "rgb": [
+        255,
+        252,
+        245
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "polished_diorite": {
+      "mapColor": "QUARTZ",
+      "mapColorId": 14,
+      "rgb": [
+        255,
+        252,
+        245
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "andesite": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "polished_andesite": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "grass_block": {
+      "mapColor": "GRASS",
+      "mapColorId": 1,
+      "rgb": [
+        127,
+        178,
+        56
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "dirt": {
+      "mapColor": "DIRT",
+      "mapColorId": 10,
+      "rgb": [
+        151,
+        109,
+        77
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "coarse_dirt": {
+      "mapColor": "DIRT",
+      "mapColorId": 10,
+      "rgb": [
+        151,
+        109,
+        77
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "podzol": {
+      "mapColor": "PODZOL",
+      "mapColorId": 34,
+      "rgb": [
+        129,
+        86,
+        49
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "cobblestone": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "oak_planks": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "spruce_planks": {
+      "mapColor": "PODZOL",
+      "mapColorId": 34,
+      "rgb": [
+        129,
+        86,
+        49
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "birch_planks": {
+      "mapColor": "SAND",
+      "mapColorId": 2,
+      "rgb": [
+        247,
+        233,
+        163
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "jungle_planks": {
+      "mapColor": "DIRT",
+      "mapColorId": 10,
+      "rgb": [
+        151,
+        109,
+        77
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "acacia_planks": {
+      "mapColor": "COLOR_ORANGE",
+      "mapColorId": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "cherry_planks": {
+      "mapColor": "TERRACOTTA_WHITE",
+      "mapColorId": 36,
+      "rgb": [
+        209,
+        177,
+        161
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "dark_oak_planks": {
+      "mapColor": "COLOR_BROWN",
+      "mapColorId": 26,
+      "rgb": [
+        102,
+        76,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "pale_oak_wood": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "pale_oak_planks": {
+      "mapColor": "QUARTZ",
+      "mapColorId": 14,
+      "rgb": [
+        255,
+        252,
+        245
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "mangrove_planks": {
+      "mapColor": "COLOR_RED",
+      "mapColorId": 28,
+      "rgb": [
+        153,
+        51,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "bamboo_planks": {
+      "mapColor": "COLOR_YELLOW",
+      "mapColorId": 18,
+      "rgb": [
+        229,
+        229,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "bamboo_mosaic": {
+      "mapColor": "COLOR_YELLOW",
+      "mapColorId": 18,
+      "rgb": [
+        229,
+        229,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "oak_sapling": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "spruce_sapling": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "birch_sapling": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "jungle_sapling": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "acacia_sapling": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "cherry_sapling": {
+      "mapColor": "COLOR_PINK",
+      "mapColorId": 20,
+      "rgb": [
+        242,
+        127,
+        165
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "dark_oak_sapling": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "pale_oak_sapling": {
+      "mapColor": "METAL",
+      "mapColorId": 6,
+      "rgb": [
+        167,
+        167,
+        167
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "mangrove_propagule": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "bedrock": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "water": {
+      "mapColor": "WATER",
+      "mapColorId": 12,
+      "rgb": [
+        64,
+        64,
+        255
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "lava": {
+      "mapColor": "FIRE",
+      "mapColorId": 4,
+      "rgb": [
+        255,
+        0,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "sand": {
+      "mapColor": "SAND",
+      "mapColorId": 2,
+      "rgb": [
+        247,
+        233,
+        163
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "suspicious_sand": {
+      "mapColor": "SAND",
+      "mapColorId": 2,
+      "rgb": [
+        247,
+        233,
+        163
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "red_sand": {
+      "mapColor": "COLOR_ORANGE",
+      "mapColorId": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "gravel": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "suspicious_gravel": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "gold_ore": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "deepslate_gold_ore": {
+      "mapColor": "DEEPSLATE",
+      "mapColorId": 59,
+      "rgb": [
+        100,
+        100,
+        100
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "iron_ore": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "deepslate_iron_ore": {
+      "mapColor": "DEEPSLATE",
+      "mapColorId": 59,
+      "rgb": [
+        100,
+        100,
+        100
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "coal_ore": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "deepslate_coal_ore": {
+      "mapColor": "DEEPSLATE",
+      "mapColorId": 59,
+      "rgb": [
+        100,
+        100,
+        100
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "nether_gold_ore": {
+      "mapColor": "NETHER",
+      "mapColorId": 35,
+      "rgb": [
+        112,
+        2,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "oak_log": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "sideMapColor": "PODZOL",
+      "sideRgb": [
+        129,
+        86,
+        49
+      ],
+      "flammable": false,
+      "pillar": true,
+      "staircaseCube": true
+    },
+    "spruce_log": {
+      "mapColor": "PODZOL",
+      "mapColorId": 34,
+      "rgb": [
+        129,
+        86,
+        49
+      ],
+      "sideMapColor": "COLOR_BROWN",
+      "sideRgb": [
+        102,
+        76,
+        51
+      ],
+      "flammable": false,
+      "pillar": true,
+      "staircaseCube": true
+    },
+    "birch_log": {
+      "mapColor": "SAND",
+      "mapColorId": 2,
+      "rgb": [
+        247,
+        233,
+        163
+      ],
+      "sideMapColor": "QUARTZ",
+      "sideRgb": [
+        255,
+        252,
+        245
+      ],
+      "flammable": false,
+      "pillar": true,
+      "staircaseCube": true
+    },
+    "jungle_log": {
+      "mapColor": "DIRT",
+      "mapColorId": 10,
+      "rgb": [
+        151,
+        109,
+        77
+      ],
+      "sideMapColor": "PODZOL",
+      "sideRgb": [
+        129,
+        86,
+        49
+      ],
+      "flammable": false,
+      "pillar": true,
+      "staircaseCube": true
+    },
+    "acacia_log": {
+      "mapColor": "COLOR_ORANGE",
+      "mapColorId": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "sideMapColor": "STONE",
+      "sideRgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": true,
+      "staircaseCube": true
+    },
+    "cherry_log": {
+      "mapColor": "TERRACOTTA_WHITE",
+      "mapColorId": 36,
+      "rgb": [
+        209,
+        177,
+        161
+      ],
+      "sideMapColor": "TERRACOTTA_GRAY",
+      "sideRgb": [
+        57,
+        41,
+        35
+      ],
+      "flammable": false,
+      "pillar": true,
+      "staircaseCube": true
+    },
+    "dark_oak_log": {
+      "mapColor": "COLOR_BROWN",
+      "mapColorId": 26,
+      "rgb": [
+        102,
+        76,
+        51
+      ],
+      "sideMapColor": "COLOR_BROWN",
+      "sideRgb": [
+        102,
+        76,
+        51
+      ],
+      "flammable": false,
+      "pillar": true,
+      "staircaseCube": true
+    },
+    "pale_oak_log": {
+      "mapColor": "QUARTZ",
+      "mapColorId": 14,
+      "rgb": [
+        255,
+        252,
+        245
+      ],
+      "sideMapColor": "STONE",
+      "sideRgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": true,
+      "staircaseCube": true
+    },
+    "mangrove_log": {
+      "mapColor": "COLOR_RED",
+      "mapColorId": 28,
+      "rgb": [
+        153,
+        51,
+        51
+      ],
+      "sideMapColor": "PODZOL",
+      "sideRgb": [
+        129,
+        86,
+        49
+      ],
+      "flammable": false,
+      "pillar": true,
+      "staircaseCube": true
+    },
+    "mangrove_roots": {
+      "mapColor": "PODZOL",
+      "mapColorId": 34,
+      "rgb": [
+        129,
+        86,
+        49
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "muddy_mangrove_roots": {
+      "mapColor": "PODZOL",
+      "mapColorId": 34,
+      "rgb": [
+        129,
+        86,
+        49
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "bamboo_block": {
+      "mapColor": "COLOR_YELLOW",
+      "mapColorId": 18,
+      "rgb": [
+        229,
+        229,
+        51
+      ],
+      "sideMapColor": "PLANT",
+      "sideRgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": true,
+      "staircaseCube": true
+    },
+    "stripped_spruce_log": {
+      "mapColor": "PODZOL",
+      "mapColorId": 34,
+      "rgb": [
+        129,
+        86,
+        49
+      ],
+      "sideMapColor": "PODZOL",
+      "sideRgb": [
+        129,
+        86,
+        49
+      ],
+      "flammable": false,
+      "pillar": true,
+      "staircaseCube": true
+    },
+    "stripped_birch_log": {
+      "mapColor": "SAND",
+      "mapColorId": 2,
+      "rgb": [
+        247,
+        233,
+        163
+      ],
+      "sideMapColor": "SAND",
+      "sideRgb": [
+        247,
+        233,
+        163
+      ],
+      "flammable": false,
+      "pillar": true,
+      "staircaseCube": true
+    },
+    "stripped_jungle_log": {
+      "mapColor": "DIRT",
+      "mapColorId": 10,
+      "rgb": [
+        151,
+        109,
+        77
+      ],
+      "sideMapColor": "DIRT",
+      "sideRgb": [
+        151,
+        109,
+        77
+      ],
+      "flammable": false,
+      "pillar": true,
+      "staircaseCube": true
+    },
+    "stripped_acacia_log": {
+      "mapColor": "COLOR_ORANGE",
+      "mapColorId": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "sideMapColor": "COLOR_ORANGE",
+      "sideRgb": [
+        216,
+        127,
+        51
+      ],
+      "flammable": false,
+      "pillar": true,
+      "staircaseCube": true
+    },
+    "stripped_cherry_log": {
+      "mapColor": "TERRACOTTA_WHITE",
+      "mapColorId": 36,
+      "rgb": [
+        209,
+        177,
+        161
+      ],
+      "sideMapColor": "TERRACOTTA_PINK",
+      "sideRgb": [
+        160,
+        77,
+        78
+      ],
+      "flammable": false,
+      "pillar": true,
+      "staircaseCube": true
+    },
+    "stripped_dark_oak_log": {
+      "mapColor": "COLOR_BROWN",
+      "mapColorId": 26,
+      "rgb": [
+        102,
+        76,
+        51
+      ],
+      "sideMapColor": "COLOR_BROWN",
+      "sideRgb": [
+        102,
+        76,
+        51
+      ],
+      "flammable": false,
+      "pillar": true,
+      "staircaseCube": true
+    },
+    "stripped_pale_oak_log": {
+      "mapColor": "QUARTZ",
+      "mapColorId": 14,
+      "rgb": [
+        255,
+        252,
+        245
+      ],
+      "sideMapColor": "QUARTZ",
+      "sideRgb": [
+        255,
+        252,
+        245
+      ],
+      "flammable": false,
+      "pillar": true,
+      "staircaseCube": true
+    },
+    "stripped_oak_log": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "sideMapColor": "WOOD",
+      "sideRgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": false,
+      "pillar": true,
+      "staircaseCube": true
+    },
+    "stripped_mangrove_log": {
+      "mapColor": "COLOR_RED",
+      "mapColorId": 28,
+      "rgb": [
+        153,
+        51,
+        51
+      ],
+      "sideMapColor": "COLOR_RED",
+      "sideRgb": [
+        153,
+        51,
+        51
+      ],
+      "flammable": false,
+      "pillar": true,
+      "staircaseCube": true
+    },
+    "stripped_bamboo_block": {
+      "mapColor": "COLOR_YELLOW",
+      "mapColorId": 18,
+      "rgb": [
+        229,
+        229,
+        51
+      ],
+      "sideMapColor": "COLOR_YELLOW",
+      "sideRgb": [
+        229,
+        229,
+        51
+      ],
+      "flammable": false,
+      "pillar": true,
+      "staircaseCube": true
+    },
+    "oak_wood": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "spruce_wood": {
+      "mapColor": "PODZOL",
+      "mapColorId": 34,
+      "rgb": [
+        129,
+        86,
+        49
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "birch_wood": {
+      "mapColor": "SAND",
+      "mapColorId": 2,
+      "rgb": [
+        247,
+        233,
+        163
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "jungle_wood": {
+      "mapColor": "DIRT",
+      "mapColorId": 10,
+      "rgb": [
+        151,
+        109,
+        77
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "acacia_wood": {
+      "mapColor": "COLOR_GRAY",
+      "mapColorId": 21,
+      "rgb": [
+        76,
+        76,
+        76
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "cherry_wood": {
+      "mapColor": "TERRACOTTA_GRAY",
+      "mapColorId": 43,
+      "rgb": [
+        57,
+        41,
+        35
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "dark_oak_wood": {
+      "mapColor": "COLOR_BROWN",
+      "mapColorId": 26,
+      "rgb": [
+        102,
+        76,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "mangrove_wood": {
+      "mapColor": "COLOR_RED",
+      "mapColorId": 28,
+      "rgb": [
+        153,
+        51,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "stripped_oak_wood": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "stripped_spruce_wood": {
+      "mapColor": "PODZOL",
+      "mapColorId": 34,
+      "rgb": [
+        129,
+        86,
+        49
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "stripped_birch_wood": {
+      "mapColor": "SAND",
+      "mapColorId": 2,
+      "rgb": [
+        247,
+        233,
+        163
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "stripped_jungle_wood": {
+      "mapColor": "DIRT",
+      "mapColorId": 10,
+      "rgb": [
+        151,
+        109,
+        77
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "stripped_acacia_wood": {
+      "mapColor": "COLOR_ORANGE",
+      "mapColorId": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "stripped_cherry_wood": {
+      "mapColor": "TERRACOTTA_PINK",
+      "mapColorId": 42,
+      "rgb": [
+        160,
+        77,
+        78
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "stripped_dark_oak_wood": {
+      "mapColor": "COLOR_BROWN",
+      "mapColorId": 26,
+      "rgb": [
+        102,
+        76,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "stripped_pale_oak_wood": {
+      "mapColor": "QUARTZ",
+      "mapColorId": 14,
+      "rgb": [
+        255,
+        252,
+        245
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "stripped_mangrove_wood": {
+      "mapColor": "COLOR_RED",
+      "mapColorId": 28,
+      "rgb": [
+        153,
+        51,
+        51
+      ],
+      "sideMapColor": "COLOR_RED",
+      "sideRgb": [
+        153,
+        51,
+        51
+      ],
+      "flammable": false,
+      "pillar": true,
+      "staircaseCube": true
+    },
+    "oak_leaves": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "spruce_leaves": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "birch_leaves": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "jungle_leaves": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "acacia_leaves": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "cherry_leaves": {
+      "mapColor": "COLOR_PINK",
+      "mapColorId": 20,
+      "rgb": [
+        242,
+        127,
+        165
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "dark_oak_leaves": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "pale_oak_leaves": {
+      "mapColor": "METAL",
+      "mapColorId": 6,
+      "rgb": [
+        167,
+        167,
+        167
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "mangrove_leaves": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "azalea_leaves": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "flowering_azalea_leaves": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "sponge": {
+      "mapColor": "COLOR_YELLOW",
+      "mapColorId": 18,
+      "rgb": [
+        229,
+        229,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "wet_sponge": {
+      "mapColor": "COLOR_YELLOW",
+      "mapColorId": 18,
+      "rgb": [
+        229,
+        229,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "lapis_ore": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "deepslate_lapis_ore": {
+      "mapColor": "DEEPSLATE",
+      "mapColorId": 59,
+      "rgb": [
+        100,
+        100,
+        100
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "lapis_block": {
+      "mapColor": "LAPIS",
+      "mapColorId": 32,
+      "rgb": [
+        74,
+        128,
+        255
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "dispenser": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "sandstone": {
+      "mapColor": "SAND",
+      "mapColorId": 2,
+      "rgb": [
+        247,
+        233,
+        163
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "chiseled_sandstone": {
+      "mapColor": "SAND",
+      "mapColorId": 2,
+      "rgb": [
+        247,
+        233,
+        163
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "cut_sandstone": {
+      "mapColor": "SAND",
+      "mapColorId": 2,
+      "rgb": [
+        247,
+        233,
+        163
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "note_block": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "cobweb": {
+      "mapColor": "WOOL",
+      "mapColorId": 3,
+      "rgb": [
+        199,
+        199,
+        199
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "short_grass": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "fern": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "dead_bush": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "bush": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "short_dry_grass": {
+      "mapColor": "COLOR_YELLOW",
+      "mapColorId": 18,
+      "rgb": [
+        229,
+        229,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "tall_dry_grass": {
+      "mapColor": "COLOR_YELLOW",
+      "mapColorId": 18,
+      "rgb": [
+        229,
+        229,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "seagrass": {
+      "mapColor": "WATER",
+      "mapColorId": 12,
+      "rgb": [
+        64,
+        64,
+        255
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "tall_seagrass": {
+      "mapColor": "WATER",
+      "mapColorId": 12,
+      "rgb": [
+        64,
+        64,
+        255
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "piston_head": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "white_wool": {
+      "mapColor": "SNOW",
+      "mapColorId": 8,
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "orange_wool": {
+      "mapColor": "COLOR_ORANGE",
+      "mapColorId": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "magenta_wool": {
+      "mapColor": "COLOR_MAGENTA",
+      "mapColorId": 16,
+      "rgb": [
+        178,
+        76,
+        216
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "light_blue_wool": {
+      "mapColor": "COLOR_LIGHT_BLUE",
+      "mapColorId": 17,
+      "rgb": [
+        102,
+        153,
+        216
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "yellow_wool": {
+      "mapColor": "COLOR_YELLOW",
+      "mapColorId": 18,
+      "rgb": [
+        229,
+        229,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "lime_wool": {
+      "mapColor": "COLOR_LIGHT_GREEN",
+      "mapColorId": 19,
+      "rgb": [
+        127,
+        204,
+        25
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "pink_wool": {
+      "mapColor": "COLOR_PINK",
+      "mapColorId": 20,
+      "rgb": [
+        242,
+        127,
+        165
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "gray_wool": {
+      "mapColor": "COLOR_GRAY",
+      "mapColorId": 21,
+      "rgb": [
+        76,
+        76,
+        76
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "light_gray_wool": {
+      "mapColor": "COLOR_LIGHT_GRAY",
+      "mapColorId": 22,
+      "rgb": [
+        153,
+        153,
+        153
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "cyan_wool": {
+      "mapColor": "COLOR_CYAN",
+      "mapColorId": 23,
+      "rgb": [
+        76,
+        127,
+        153
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "purple_wool": {
+      "mapColor": "COLOR_PURPLE",
+      "mapColorId": 24,
+      "rgb": [
+        127,
+        63,
+        178
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "blue_wool": {
+      "mapColor": "COLOR_BLUE",
+      "mapColorId": 25,
+      "rgb": [
+        51,
+        76,
+        178
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "brown_wool": {
+      "mapColor": "COLOR_BROWN",
+      "mapColorId": 26,
+      "rgb": [
+        102,
+        76,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "green_wool": {
+      "mapColor": "COLOR_GREEN",
+      "mapColorId": 27,
+      "rgb": [
+        102,
+        127,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "red_wool": {
+      "mapColor": "COLOR_RED",
+      "mapColorId": 28,
+      "rgb": [
+        153,
+        51,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "black_wool": {
+      "mapColor": "COLOR_BLACK",
+      "mapColorId": 29,
+      "rgb": [
+        25,
+        25,
+        25
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "moving_piston": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "dandelion": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "golden_dandelion": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "torchflower": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "poppy": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "blue_orchid": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "allium": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "azure_bluet": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "red_tulip": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "orange_tulip": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "white_tulip": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "pink_tulip": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "oxeye_daisy": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "cornflower": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "wither_rose": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "lily_of_the_valley": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "brown_mushroom": {
+      "mapColor": "COLOR_BROWN",
+      "mapColorId": 26,
+      "rgb": [
+        102,
+        76,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "red_mushroom": {
+      "mapColor": "COLOR_RED",
+      "mapColorId": 28,
+      "rgb": [
+        153,
+        51,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "gold_block": {
+      "mapColor": "GOLD",
+      "mapColorId": 30,
+      "rgb": [
+        250,
+        238,
+        77
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "iron_block": {
+      "mapColor": "METAL",
+      "mapColorId": 6,
+      "rgb": [
+        167,
+        167,
+        167
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "bricks": {
+      "mapColor": "COLOR_RED",
+      "mapColorId": 28,
+      "rgb": [
+        153,
+        51,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "tnt": {
+      "mapColor": "FIRE",
+      "mapColorId": 4,
+      "rgb": [
+        255,
+        0,
+        0
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "bookshelf": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "chiseled_bookshelf": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "acacia_shelf": {
+      "mapColor": "COLOR_ORANGE",
+      "mapColorId": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "bamboo_shelf": {
+      "mapColor": "COLOR_YELLOW",
+      "mapColorId": 18,
+      "rgb": [
+        229,
+        229,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "birch_shelf": {
+      "mapColor": "SAND",
+      "mapColorId": 2,
+      "rgb": [
+        247,
+        233,
+        163
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "cherry_shelf": {
+      "mapColor": "TERRACOTTA_WHITE",
+      "mapColorId": 36,
+      "rgb": [
+        209,
+        177,
+        161
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "crimson_shelf": {
+      "mapColor": "CRIMSON_STEM",
+      "mapColorId": 53,
+      "rgb": [
+        148,
+        63,
+        97
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "dark_oak_shelf": {
+      "mapColor": "COLOR_BROWN",
+      "mapColorId": 26,
+      "rgb": [
+        102,
+        76,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "jungle_shelf": {
+      "mapColor": "DIRT",
+      "mapColorId": 10,
+      "rgb": [
+        151,
+        109,
+        77
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "mangrove_shelf": {
+      "mapColor": "COLOR_RED",
+      "mapColorId": 28,
+      "rgb": [
+        153,
+        51,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "oak_shelf": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "pale_oak_shelf": {
+      "mapColor": "QUARTZ",
+      "mapColorId": 14,
+      "rgb": [
+        255,
+        252,
+        245
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "spruce_shelf": {
+      "mapColor": "PODZOL",
+      "mapColorId": 34,
+      "rgb": [
+        129,
+        86,
+        49
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "warped_shelf": {
+      "mapColor": "WARPED_STEM",
+      "mapColorId": 56,
+      "rgb": [
+        58,
+        142,
+        140
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "mossy_cobblestone": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "obsidian": {
+      "mapColor": "COLOR_BLACK",
+      "mapColorId": 29,
+      "rgb": [
+        25,
+        25,
+        25
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "fire": {
+      "mapColor": "FIRE",
+      "mapColorId": 4,
+      "rgb": [
+        255,
+        0,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "soul_fire": {
+      "mapColor": "COLOR_LIGHT_BLUE",
+      "mapColorId": 17,
+      "rgb": [
+        102,
+        153,
+        216
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "spawner": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "creaking_heart": {
+      "mapColor": "COLOR_ORANGE",
+      "mapColorId": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "oak_stairs": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "chest": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "diamond_ore": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "deepslate_diamond_ore": {
+      "mapColor": "DEEPSLATE",
+      "mapColorId": 59,
+      "rgb": [
+        100,
+        100,
+        100
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "diamond_block": {
+      "mapColor": "DIAMOND",
+      "mapColorId": 31,
+      "rgb": [
+        92,
+        219,
+        213
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "crafting_table": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "farmland": {
+      "mapColor": "DIRT",
+      "mapColorId": 10,
+      "rgb": [
+        151,
+        109,
+        77
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "furnace": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "oak_sign": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "spruce_sign": {
+      "mapColor": "PODZOL",
+      "mapColorId": 34,
+      "rgb": [
+        129,
+        86,
+        49
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "birch_sign": {
+      "mapColor": "SAND",
+      "mapColorId": 2,
+      "rgb": [
+        247,
+        233,
+        163
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "acacia_sign": {
+      "mapColor": "COLOR_ORANGE",
+      "mapColorId": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "cherry_sign": {
+      "mapColor": "TERRACOTTA_WHITE",
+      "mapColorId": 36,
+      "rgb": [
+        209,
+        177,
+        161
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "jungle_sign": {
+      "mapColor": "DIRT",
+      "mapColorId": 10,
+      "rgb": [
+        151,
+        109,
+        77
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "dark_oak_sign": {
+      "mapColor": "COLOR_BROWN",
+      "mapColorId": 26,
+      "rgb": [
+        102,
+        76,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "pale_oak_sign": {
+      "mapColor": "QUARTZ",
+      "mapColorId": 14,
+      "rgb": [
+        255,
+        252,
+        245
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "mangrove_sign": {
+      "mapColor": "COLOR_RED",
+      "mapColorId": 28,
+      "rgb": [
+        153,
+        51,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "bamboo_sign": {
+      "mapColor": "COLOR_YELLOW",
+      "mapColorId": 18,
+      "rgb": [
+        229,
+        229,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "oak_door": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "cobblestone_stairs": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "oak_wall_sign": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "spruce_wall_sign": {
+      "mapColor": "PODZOL",
+      "mapColorId": 34,
+      "rgb": [
+        129,
+        86,
+        49
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "birch_wall_sign": {
+      "mapColor": "SAND",
+      "mapColorId": 2,
+      "rgb": [
+        247,
+        233,
+        163
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "acacia_wall_sign": {
+      "mapColor": "COLOR_ORANGE",
+      "mapColorId": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "cherry_wall_sign": {
+      "mapColor": "TERRACOTTA_WHITE",
+      "mapColorId": 36,
+      "rgb": [
+        209,
+        177,
+        161
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "jungle_wall_sign": {
+      "mapColor": "DIRT",
+      "mapColorId": 10,
+      "rgb": [
+        151,
+        109,
+        77
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "dark_oak_wall_sign": {
+      "mapColor": "COLOR_BROWN",
+      "mapColorId": 26,
+      "rgb": [
+        102,
+        76,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "pale_oak_wall_sign": {
+      "mapColor": "QUARTZ",
+      "mapColorId": 14,
+      "rgb": [
+        255,
+        252,
+        245
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "mangrove_wall_sign": {
+      "mapColor": "COLOR_RED",
+      "mapColorId": 28,
+      "rgb": [
+        153,
+        51,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "bamboo_wall_sign": {
+      "mapColor": "COLOR_YELLOW",
+      "mapColorId": 18,
+      "rgb": [
+        229,
+        229,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "oak_hanging_sign": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "spruce_hanging_sign": {
+      "mapColor": "PODZOL",
+      "mapColorId": 34,
+      "rgb": [
+        129,
+        86,
+        49
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "birch_hanging_sign": {
+      "mapColor": "SAND",
+      "mapColorId": 2,
+      "rgb": [
+        247,
+        233,
+        163
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "acacia_hanging_sign": {
+      "mapColor": "COLOR_ORANGE",
+      "mapColorId": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "cherry_hanging_sign": {
+      "mapColor": "TERRACOTTA_PINK",
+      "mapColorId": 42,
+      "rgb": [
+        160,
+        77,
+        78
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "jungle_hanging_sign": {
+      "mapColor": "DIRT",
+      "mapColorId": 10,
+      "rgb": [
+        151,
+        109,
+        77
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "dark_oak_hanging_sign": {
+      "mapColor": "COLOR_BROWN",
+      "mapColorId": 26,
+      "rgb": [
+        102,
+        76,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "pale_oak_hanging_sign": {
+      "mapColor": "QUARTZ",
+      "mapColorId": 14,
+      "rgb": [
+        255,
+        252,
+        245
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "crimson_hanging_sign": {
+      "mapColor": "CRIMSON_STEM",
+      "mapColorId": 53,
+      "rgb": [
+        148,
+        63,
+        97
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "warped_hanging_sign": {
+      "mapColor": "WARPED_STEM",
+      "mapColorId": 56,
+      "rgb": [
+        58,
+        142,
+        140
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "mangrove_hanging_sign": {
+      "mapColor": "COLOR_RED",
+      "mapColorId": 28,
+      "rgb": [
+        153,
+        51,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "bamboo_hanging_sign": {
+      "mapColor": "COLOR_YELLOW",
+      "mapColorId": 18,
+      "rgb": [
+        229,
+        229,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "oak_wall_hanging_sign": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "spruce_wall_hanging_sign": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "birch_wall_hanging_sign": {
+      "mapColor": "SAND",
+      "mapColorId": 2,
+      "rgb": [
+        247,
+        233,
+        163
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "acacia_wall_hanging_sign": {
+      "mapColor": "COLOR_ORANGE",
+      "mapColorId": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "cherry_wall_hanging_sign": {
+      "mapColor": "TERRACOTTA_PINK",
+      "mapColorId": 42,
+      "rgb": [
+        160,
+        77,
+        78
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "jungle_wall_hanging_sign": {
+      "mapColor": "DIRT",
+      "mapColorId": 10,
+      "rgb": [
+        151,
+        109,
+        77
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "dark_oak_wall_hanging_sign": {
+      "mapColor": "COLOR_BROWN",
+      "mapColorId": 26,
+      "rgb": [
+        102,
+        76,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "pale_oak_wall_hanging_sign": {
+      "mapColor": "QUARTZ",
+      "mapColorId": 14,
+      "rgb": [
+        255,
+        252,
+        245
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "mangrove_wall_hanging_sign": {
+      "mapColor": "COLOR_RED",
+      "mapColorId": 28,
+      "rgb": [
+        153,
+        51,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "crimson_wall_hanging_sign": {
+      "mapColor": "CRIMSON_STEM",
+      "mapColorId": 53,
+      "rgb": [
+        148,
+        63,
+        97
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "warped_wall_hanging_sign": {
+      "mapColor": "WARPED_STEM",
+      "mapColorId": 56,
+      "rgb": [
+        58,
+        142,
+        140
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "bamboo_wall_hanging_sign": {
+      "mapColor": "COLOR_YELLOW",
+      "mapColorId": 18,
+      "rgb": [
+        229,
+        229,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "stone_pressure_plate": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "iron_door": {
+      "mapColor": "METAL",
+      "mapColorId": 6,
+      "rgb": [
+        167,
+        167,
+        167
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "oak_pressure_plate": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "spruce_pressure_plate": {
+      "mapColor": "PODZOL",
+      "mapColorId": 34,
+      "rgb": [
+        129,
+        86,
+        49
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "birch_pressure_plate": {
+      "mapColor": "SAND",
+      "mapColorId": 2,
+      "rgb": [
+        247,
+        233,
+        163
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "jungle_pressure_plate": {
+      "mapColor": "DIRT",
+      "mapColorId": 10,
+      "rgb": [
+        151,
+        109,
+        77
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "acacia_pressure_plate": {
+      "mapColor": "COLOR_ORANGE",
+      "mapColorId": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "cherry_pressure_plate": {
+      "mapColor": "TERRACOTTA_WHITE",
+      "mapColorId": 36,
+      "rgb": [
+        209,
+        177,
+        161
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "dark_oak_pressure_plate": {
+      "mapColor": "COLOR_BROWN",
+      "mapColorId": 26,
+      "rgb": [
+        102,
+        76,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "pale_oak_pressure_plate": {
+      "mapColor": "QUARTZ",
+      "mapColorId": 14,
+      "rgb": [
+        255,
+        252,
+        245
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "mangrove_pressure_plate": {
+      "mapColor": "COLOR_RED",
+      "mapColorId": 28,
+      "rgb": [
+        153,
+        51,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "bamboo_pressure_plate": {
+      "mapColor": "COLOR_YELLOW",
+      "mapColorId": 18,
+      "rgb": [
+        229,
+        229,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "redstone_ore": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "deepslate_redstone_ore": {
+      "mapColor": "DEEPSLATE",
+      "mapColorId": 59,
+      "rgb": [
+        100,
+        100,
+        100
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "snow": {
+      "mapColor": "SNOW",
+      "mapColorId": 8,
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "ice": {
+      "mapColor": "ICE",
+      "mapColorId": 5,
+      "rgb": [
+        160,
+        160,
+        255
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "snow_block": {
+      "mapColor": "SNOW",
+      "mapColorId": 8,
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "cactus": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "cactus_flower": {
+      "mapColor": "COLOR_PINK",
+      "mapColorId": 20,
+      "rgb": [
+        242,
+        127,
+        165
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "clay": {
+      "mapColor": "CLAY",
+      "mapColorId": 9,
+      "rgb": [
+        164,
+        168,
+        184
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "sugar_cane": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "jukebox": {
+      "mapColor": "DIRT",
+      "mapColorId": 10,
+      "rgb": [
+        151,
+        109,
+        77
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "oak_fence": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "netherrack": {
+      "mapColor": "NETHER",
+      "mapColorId": 35,
+      "rgb": [
+        112,
+        2,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "soul_sand": {
+      "mapColor": "COLOR_BROWN",
+      "mapColorId": 26,
+      "rgb": [
+        102,
+        76,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "soul_soil": {
+      "mapColor": "COLOR_BROWN",
+      "mapColorId": 26,
+      "rgb": [
+        102,
+        76,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "basalt": {
+      "mapColor": "COLOR_BLACK",
+      "mapColorId": 29,
+      "rgb": [
+        25,
+        25,
+        25
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "polished_basalt": {
+      "mapColor": "COLOR_BLACK",
+      "mapColorId": 29,
+      "rgb": [
+        25,
+        25,
+        25
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "glowstone": {
+      "mapColor": "SAND",
+      "mapColorId": 2,
+      "rgb": [
+        247,
+        233,
+        163
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "carved_pumpkin": {
+      "mapColor": "COLOR_ORANGE",
+      "mapColorId": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "jack_o_lantern": {
+      "mapColor": "COLOR_ORANGE",
+      "mapColorId": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "white_stained_glass": {
+      "mapColor": "SNOW",
+      "mapColorId": 8,
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "orange_stained_glass": {
+      "mapColor": "COLOR_ORANGE",
+      "mapColorId": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "magenta_stained_glass": {
+      "mapColor": "COLOR_MAGENTA",
+      "mapColorId": 16,
+      "rgb": [
+        178,
+        76,
+        216
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "light_blue_stained_glass": {
+      "mapColor": "COLOR_LIGHT_BLUE",
+      "mapColorId": 17,
+      "rgb": [
+        102,
+        153,
+        216
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "yellow_stained_glass": {
+      "mapColor": "COLOR_YELLOW",
+      "mapColorId": 18,
+      "rgb": [
+        229,
+        229,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "lime_stained_glass": {
+      "mapColor": "COLOR_LIGHT_GREEN",
+      "mapColorId": 19,
+      "rgb": [
+        127,
+        204,
+        25
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "pink_stained_glass": {
+      "mapColor": "COLOR_PINK",
+      "mapColorId": 20,
+      "rgb": [
+        242,
+        127,
+        165
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "gray_stained_glass": {
+      "mapColor": "COLOR_GRAY",
+      "mapColorId": 21,
+      "rgb": [
+        76,
+        76,
+        76
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "light_gray_stained_glass": {
+      "mapColor": "COLOR_LIGHT_GRAY",
+      "mapColorId": 22,
+      "rgb": [
+        153,
+        153,
+        153
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "cyan_stained_glass": {
+      "mapColor": "COLOR_CYAN",
+      "mapColorId": 23,
+      "rgb": [
+        76,
+        127,
+        153
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "purple_stained_glass": {
+      "mapColor": "COLOR_PURPLE",
+      "mapColorId": 24,
+      "rgb": [
+        127,
+        63,
+        178
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "blue_stained_glass": {
+      "mapColor": "COLOR_BLUE",
+      "mapColorId": 25,
+      "rgb": [
+        51,
+        76,
+        178
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "brown_stained_glass": {
+      "mapColor": "COLOR_BROWN",
+      "mapColorId": 26,
+      "rgb": [
+        102,
+        76,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "green_stained_glass": {
+      "mapColor": "COLOR_GREEN",
+      "mapColorId": 27,
+      "rgb": [
+        102,
+        127,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "red_stained_glass": {
+      "mapColor": "COLOR_RED",
+      "mapColorId": 28,
+      "rgb": [
+        153,
+        51,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "black_stained_glass": {
+      "mapColor": "COLOR_BLACK",
+      "mapColorId": 29,
+      "rgb": [
+        25,
+        25,
+        25
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "oak_trapdoor": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "spruce_trapdoor": {
+      "mapColor": "PODZOL",
+      "mapColorId": 34,
+      "rgb": [
+        129,
+        86,
+        49
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "birch_trapdoor": {
+      "mapColor": "SAND",
+      "mapColorId": 2,
+      "rgb": [
+        247,
+        233,
+        163
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "jungle_trapdoor": {
+      "mapColor": "DIRT",
+      "mapColorId": 10,
+      "rgb": [
+        151,
+        109,
+        77
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "acacia_trapdoor": {
+      "mapColor": "COLOR_ORANGE",
+      "mapColorId": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "cherry_trapdoor": {
+      "mapColor": "TERRACOTTA_WHITE",
+      "mapColorId": 36,
+      "rgb": [
+        209,
+        177,
+        161
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "dark_oak_trapdoor": {
+      "mapColor": "COLOR_BROWN",
+      "mapColorId": 26,
+      "rgb": [
+        102,
+        76,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "pale_oak_trapdoor": {
+      "mapColor": "QUARTZ",
+      "mapColorId": 14,
+      "rgb": [
+        255,
+        252,
+        245
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "mangrove_trapdoor": {
+      "mapColor": "COLOR_RED",
+      "mapColorId": 28,
+      "rgb": [
+        153,
+        51,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "bamboo_trapdoor": {
+      "mapColor": "COLOR_YELLOW",
+      "mapColorId": 18,
+      "rgb": [
+        229,
+        229,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "stone_bricks": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "mossy_stone_bricks": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "cracked_stone_bricks": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "chiseled_stone_bricks": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "mud_bricks": {
+      "mapColor": "TERRACOTTA_LIGHT_GRAY",
+      "mapColorId": 44,
+      "rgb": [
+        135,
+        107,
+        98
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "infested_stone": {
+      "mapColor": "CLAY",
+      "mapColorId": 9,
+      "rgb": [
+        164,
+        168,
+        184
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "infested_cobblestone": {
+      "mapColor": "CLAY",
+      "mapColorId": 9,
+      "rgb": [
+        164,
+        168,
+        184
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "infested_stone_bricks": {
+      "mapColor": "CLAY",
+      "mapColorId": 9,
+      "rgb": [
+        164,
+        168,
+        184
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "infested_mossy_stone_bricks": {
+      "mapColor": "CLAY",
+      "mapColorId": 9,
+      "rgb": [
+        164,
+        168,
+        184
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "infested_cracked_stone_bricks": {
+      "mapColor": "CLAY",
+      "mapColorId": 9,
+      "rgb": [
+        164,
+        168,
+        184
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "infested_chiseled_stone_bricks": {
+      "mapColor": "CLAY",
+      "mapColorId": 9,
+      "rgb": [
+        164,
+        168,
+        184
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "brown_mushroom_block": {
+      "mapColor": "DIRT",
+      "mapColorId": 10,
+      "rgb": [
+        151,
+        109,
+        77
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "red_mushroom_block": {
+      "mapColor": "COLOR_RED",
+      "mapColorId": 28,
+      "rgb": [
+        153,
+        51,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "mushroom_stem": {
+      "mapColor": "WOOL",
+      "mapColorId": 3,
+      "rgb": [
+        199,
+        199,
+        199
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "pumpkin": {
+      "mapColor": "COLOR_ORANGE",
+      "mapColorId": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "melon": {
+      "mapColor": "COLOR_LIGHT_GREEN",
+      "mapColorId": 19,
+      "rgb": [
+        127,
+        204,
+        25
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "attached_pumpkin_stem": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "attached_melon_stem": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "pumpkin_stem": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "melon_stem": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "vine": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "glow_lichen": {
+      "mapColor": "GLOW_LICHEN",
+      "mapColorId": 61,
+      "rgb": [
+        127,
+        167,
+        150
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "resin_clump": {
+      "mapColor": "TERRACOTTA_ORANGE",
+      "mapColorId": 37,
+      "rgb": [
+        159,
+        82,
+        36
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "oak_fence_gate": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "brick_stairs": {
+      "mapColor": "COLOR_RED",
+      "mapColorId": 28,
+      "rgb": [
+        153,
+        51,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "stone_brick_stairs": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "mud_brick_stairs": {
+      "mapColor": "TERRACOTTA_LIGHT_GRAY",
+      "mapColorId": 44,
+      "rgb": [
+        135,
+        107,
+        98
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "mycelium": {
+      "mapColor": "COLOR_PURPLE",
+      "mapColorId": 24,
+      "rgb": [
+        127,
+        63,
+        178
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "lily_pad": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "resin_block": {
+      "mapColor": "TERRACOTTA_ORANGE",
+      "mapColorId": 37,
+      "rgb": [
+        159,
+        82,
+        36
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "resin_bricks": {
+      "mapColor": "TERRACOTTA_ORANGE",
+      "mapColorId": 37,
+      "rgb": [
+        159,
+        82,
+        36
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "resin_brick_stairs": {
+      "mapColor": "TERRACOTTA_ORANGE",
+      "mapColorId": 37,
+      "rgb": [
+        159,
+        82,
+        36
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "resin_brick_slab": {
+      "mapColor": "TERRACOTTA_ORANGE",
+      "mapColorId": 37,
+      "rgb": [
+        159,
+        82,
+        36
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "resin_brick_wall": {
+      "mapColor": "TERRACOTTA_ORANGE",
+      "mapColorId": 37,
+      "rgb": [
+        159,
+        82,
+        36
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "chiseled_resin_bricks": {
+      "mapColor": "TERRACOTTA_ORANGE",
+      "mapColorId": 37,
+      "rgb": [
+        159,
+        82,
+        36
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "nether_bricks": {
+      "mapColor": "NETHER",
+      "mapColorId": 35,
+      "rgb": [
+        112,
+        2,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "nether_brick_fence": {
+      "mapColor": "NETHER",
+      "mapColorId": 35,
+      "rgb": [
+        112,
+        2,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "nether_brick_stairs": {
+      "mapColor": "NETHER",
+      "mapColorId": 35,
+      "rgb": [
+        112,
+        2,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "nether_wart": {
+      "mapColor": "COLOR_RED",
+      "mapColorId": 28,
+      "rgb": [
+        153,
+        51,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "enchanting_table": {
+      "mapColor": "COLOR_RED",
+      "mapColorId": 28,
+      "rgb": [
+        153,
+        51,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "brewing_stand": {
+      "mapColor": "METAL",
+      "mapColorId": 6,
+      "rgb": [
+        167,
+        167,
+        167
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "cauldron": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "end_portal": {
+      "mapColor": "COLOR_BLACK",
+      "mapColorId": 29,
+      "rgb": [
+        25,
+        25,
+        25
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "end_portal_frame": {
+      "mapColor": "COLOR_GREEN",
+      "mapColorId": 27,
+      "rgb": [
+        102,
+        127,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "end_stone": {
+      "mapColor": "SAND",
+      "mapColorId": 2,
+      "rgb": [
+        247,
+        233,
+        163
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "dragon_egg": {
+      "mapColor": "COLOR_BLACK",
+      "mapColorId": 29,
+      "rgb": [
+        25,
+        25,
+        25
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "redstone_lamp": {
+      "mapColor": "TERRACOTTA_ORANGE",
+      "mapColorId": 37,
+      "rgb": [
+        159,
+        82,
+        36
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "cocoa": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "sandstone_stairs": {
+      "mapColor": "SAND",
+      "mapColorId": 2,
+      "rgb": [
+        247,
+        233,
+        163
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "emerald_ore": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "deepslate_emerald_ore": {
+      "mapColor": "DEEPSLATE",
+      "mapColorId": 59,
+      "rgb": [
+        100,
+        100,
+        100
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "ender_chest": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "emerald_block": {
+      "mapColor": "EMERALD",
+      "mapColorId": 33,
+      "rgb": [
+        0,
+        217,
+        58
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "spruce_stairs": {
+      "mapColor": "PODZOL",
+      "mapColorId": 34,
+      "rgb": [
+        129,
+        86,
+        49
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "birch_stairs": {
+      "mapColor": "SAND",
+      "mapColorId": 2,
+      "rgb": [
+        247,
+        233,
+        163
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "jungle_stairs": {
+      "mapColor": "DIRT",
+      "mapColorId": 10,
+      "rgb": [
+        151,
+        109,
+        77
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "command_block": {
+      "mapColor": "COLOR_BROWN",
+      "mapColorId": 26,
+      "rgb": [
+        102,
+        76,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "beacon": {
+      "mapColor": "DIAMOND",
+      "mapColorId": 31,
+      "rgb": [
+        92,
+        219,
+        213
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "carrots": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "potatoes": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "anvil": {
+      "mapColor": "METAL",
+      "mapColorId": 6,
+      "rgb": [
+        167,
+        167,
+        167
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "chipped_anvil": {
+      "mapColor": "METAL",
+      "mapColorId": 6,
+      "rgb": [
+        167,
+        167,
+        167
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "damaged_anvil": {
+      "mapColor": "METAL",
+      "mapColorId": 6,
+      "rgb": [
+        167,
+        167,
+        167
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "trapped_chest": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "light_weighted_pressure_plate": {
+      "mapColor": "GOLD",
+      "mapColorId": 30,
+      "rgb": [
+        250,
+        238,
+        77
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "heavy_weighted_pressure_plate": {
+      "mapColor": "METAL",
+      "mapColorId": 6,
+      "rgb": [
+        167,
+        167,
+        167
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "daylight_detector": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "redstone_block": {
+      "mapColor": "FIRE",
+      "mapColorId": 4,
+      "rgb": [
+        255,
+        0,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "nether_quartz_ore": {
+      "mapColor": "NETHER",
+      "mapColorId": 35,
+      "rgb": [
+        112,
+        2,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "hopper": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "quartz_block": {
+      "mapColor": "QUARTZ",
+      "mapColorId": 14,
+      "rgb": [
+        255,
+        252,
+        245
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "chiseled_quartz_block": {
+      "mapColor": "QUARTZ",
+      "mapColorId": 14,
+      "rgb": [
+        255,
+        252,
+        245
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "quartz_pillar": {
+      "mapColor": "QUARTZ",
+      "mapColorId": 14,
+      "rgb": [
+        255,
+        252,
+        245
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "quartz_stairs": {
+      "mapColor": "QUARTZ",
+      "mapColorId": 14,
+      "rgb": [
+        255,
+        252,
+        245
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "dropper": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "white_terracotta": {
+      "mapColor": "TERRACOTTA_WHITE",
+      "mapColorId": 36,
+      "rgb": [
+        209,
+        177,
+        161
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "orange_terracotta": {
+      "mapColor": "TERRACOTTA_ORANGE",
+      "mapColorId": 37,
+      "rgb": [
+        159,
+        82,
+        36
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "magenta_terracotta": {
+      "mapColor": "TERRACOTTA_MAGENTA",
+      "mapColorId": 38,
+      "rgb": [
+        149,
+        87,
+        108
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "light_blue_terracotta": {
+      "mapColor": "TERRACOTTA_LIGHT_BLUE",
+      "mapColorId": 39,
+      "rgb": [
+        112,
+        108,
+        138
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "yellow_terracotta": {
+      "mapColor": "TERRACOTTA_YELLOW",
+      "mapColorId": 40,
+      "rgb": [
+        186,
+        133,
+        36
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "lime_terracotta": {
+      "mapColor": "TERRACOTTA_LIGHT_GREEN",
+      "mapColorId": 41,
+      "rgb": [
+        103,
+        117,
+        53
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "pink_terracotta": {
+      "mapColor": "TERRACOTTA_PINK",
+      "mapColorId": 42,
+      "rgb": [
+        160,
+        77,
+        78
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "gray_terracotta": {
+      "mapColor": "TERRACOTTA_GRAY",
+      "mapColorId": 43,
+      "rgb": [
+        57,
+        41,
+        35
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "light_gray_terracotta": {
+      "mapColor": "TERRACOTTA_LIGHT_GRAY",
+      "mapColorId": 44,
+      "rgb": [
+        135,
+        107,
+        98
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "cyan_terracotta": {
+      "mapColor": "TERRACOTTA_CYAN",
+      "mapColorId": 45,
+      "rgb": [
+        87,
+        92,
+        92
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "purple_terracotta": {
+      "mapColor": "TERRACOTTA_PURPLE",
+      "mapColorId": 46,
+      "rgb": [
+        122,
+        73,
+        88
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "blue_terracotta": {
+      "mapColor": "TERRACOTTA_BLUE",
+      "mapColorId": 47,
+      "rgb": [
+        76,
+        62,
+        92
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "brown_terracotta": {
+      "mapColor": "TERRACOTTA_BROWN",
+      "mapColorId": 48,
+      "rgb": [
+        76,
+        50,
+        35
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "green_terracotta": {
+      "mapColor": "TERRACOTTA_GREEN",
+      "mapColorId": 49,
+      "rgb": [
+        76,
+        82,
+        42
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "red_terracotta": {
+      "mapColor": "TERRACOTTA_RED",
+      "mapColorId": 50,
+      "rgb": [
+        142,
+        60,
+        46
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "black_terracotta": {
+      "mapColor": "TERRACOTTA_BLACK",
+      "mapColorId": 51,
+      "rgb": [
+        37,
+        22,
+        16
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "acacia_stairs": {
+      "mapColor": "COLOR_ORANGE",
+      "mapColorId": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "cherry_stairs": {
+      "mapColor": "TERRACOTTA_WHITE",
+      "mapColorId": 36,
+      "rgb": [
+        209,
+        177,
+        161
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "dark_oak_stairs": {
+      "mapColor": "COLOR_BROWN",
+      "mapColorId": 26,
+      "rgb": [
+        102,
+        76,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "pale_oak_stairs": {
+      "mapColor": "QUARTZ",
+      "mapColorId": 14,
+      "rgb": [
+        255,
+        252,
+        245
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "mangrove_stairs": {
+      "mapColor": "COLOR_RED",
+      "mapColorId": 28,
+      "rgb": [
+        153,
+        51,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "bamboo_stairs": {
+      "mapColor": "COLOR_YELLOW",
+      "mapColorId": 18,
+      "rgb": [
+        229,
+        229,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "bamboo_mosaic_stairs": {
+      "mapColor": "COLOR_YELLOW",
+      "mapColorId": 18,
+      "rgb": [
+        229,
+        229,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "slime_block": {
+      "mapColor": "GRASS",
+      "mapColorId": 1,
+      "rgb": [
+        127,
+        178,
+        56
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "iron_trapdoor": {
+      "mapColor": "METAL",
+      "mapColorId": 6,
+      "rgb": [
+        167,
+        167,
+        167
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "prismarine": {
+      "mapColor": "COLOR_CYAN",
+      "mapColorId": 23,
+      "rgb": [
+        76,
+        127,
+        153
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "prismarine_bricks": {
+      "mapColor": "DIAMOND",
+      "mapColorId": 31,
+      "rgb": [
+        92,
+        219,
+        213
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "dark_prismarine": {
+      "mapColor": "DIAMOND",
+      "mapColorId": 31,
+      "rgb": [
+        92,
+        219,
+        213
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "prismarine_stairs": {
+      "mapColor": "COLOR_CYAN",
+      "mapColorId": 23,
+      "rgb": [
+        76,
+        127,
+        153
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "prismarine_brick_stairs": {
+      "mapColor": "DIAMOND",
+      "mapColorId": 31,
+      "rgb": [
+        92,
+        219,
+        213
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "dark_prismarine_stairs": {
+      "mapColor": "DIAMOND",
+      "mapColorId": 31,
+      "rgb": [
+        92,
+        219,
+        213
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "prismarine_slab": {
+      "mapColor": "COLOR_CYAN",
+      "mapColorId": 23,
+      "rgb": [
+        76,
+        127,
+        153
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "prismarine_brick_slab": {
+      "mapColor": "DIAMOND",
+      "mapColorId": 31,
+      "rgb": [
+        92,
+        219,
+        213
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "dark_prismarine_slab": {
+      "mapColor": "DIAMOND",
+      "mapColorId": 31,
+      "rgb": [
+        92,
+        219,
+        213
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "sea_lantern": {
+      "mapColor": "QUARTZ",
+      "mapColorId": 14,
+      "rgb": [
+        255,
+        252,
+        245
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "hay_block": {
+      "mapColor": "COLOR_YELLOW",
+      "mapColorId": 18,
+      "rgb": [
+        229,
+        229,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "white_carpet": {
+      "mapColor": "SNOW",
+      "mapColorId": 8,
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "orange_carpet": {
+      "mapColor": "COLOR_ORANGE",
+      "mapColorId": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "magenta_carpet": {
+      "mapColor": "COLOR_MAGENTA",
+      "mapColorId": 16,
+      "rgb": [
+        178,
+        76,
+        216
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "light_blue_carpet": {
+      "mapColor": "COLOR_LIGHT_BLUE",
+      "mapColorId": 17,
+      "rgb": [
+        102,
+        153,
+        216
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "yellow_carpet": {
+      "mapColor": "COLOR_YELLOW",
+      "mapColorId": 18,
+      "rgb": [
+        229,
+        229,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "lime_carpet": {
+      "mapColor": "COLOR_LIGHT_GREEN",
+      "mapColorId": 19,
+      "rgb": [
+        127,
+        204,
+        25
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "pink_carpet": {
+      "mapColor": "COLOR_PINK",
+      "mapColorId": 20,
+      "rgb": [
+        242,
+        127,
+        165
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "gray_carpet": {
+      "mapColor": "COLOR_GRAY",
+      "mapColorId": 21,
+      "rgb": [
+        76,
+        76,
+        76
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "light_gray_carpet": {
+      "mapColor": "COLOR_LIGHT_GRAY",
+      "mapColorId": 22,
+      "rgb": [
+        153,
+        153,
+        153
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "cyan_carpet": {
+      "mapColor": "COLOR_CYAN",
+      "mapColorId": 23,
+      "rgb": [
+        76,
+        127,
+        153
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "purple_carpet": {
+      "mapColor": "COLOR_PURPLE",
+      "mapColorId": 24,
+      "rgb": [
+        127,
+        63,
+        178
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "blue_carpet": {
+      "mapColor": "COLOR_BLUE",
+      "mapColorId": 25,
+      "rgb": [
+        51,
+        76,
+        178
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "brown_carpet": {
+      "mapColor": "COLOR_BROWN",
+      "mapColorId": 26,
+      "rgb": [
+        102,
+        76,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "green_carpet": {
+      "mapColor": "COLOR_GREEN",
+      "mapColorId": 27,
+      "rgb": [
+        102,
+        127,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "red_carpet": {
+      "mapColor": "COLOR_RED",
+      "mapColorId": 28,
+      "rgb": [
+        153,
+        51,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "black_carpet": {
+      "mapColor": "COLOR_BLACK",
+      "mapColorId": 29,
+      "rgb": [
+        25,
+        25,
+        25
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "terracotta": {
+      "mapColor": "COLOR_ORANGE",
+      "mapColorId": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "coal_block": {
+      "mapColor": "COLOR_BLACK",
+      "mapColorId": 29,
+      "rgb": [
+        25,
+        25,
+        25
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "packed_ice": {
+      "mapColor": "ICE",
+      "mapColorId": 5,
+      "rgb": [
+        160,
+        160,
+        255
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "sunflower": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "lilac": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "rose_bush": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "peony": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "tall_grass": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "large_fern": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "white_banner": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "orange_banner": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "magenta_banner": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "light_blue_banner": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "yellow_banner": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "lime_banner": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "pink_banner": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "gray_banner": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "light_gray_banner": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "cyan_banner": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "purple_banner": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "blue_banner": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "brown_banner": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "green_banner": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "red_banner": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "black_banner": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "white_wall_banner": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "orange_wall_banner": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "magenta_wall_banner": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "light_blue_wall_banner": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "yellow_wall_banner": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "lime_wall_banner": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "pink_wall_banner": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "gray_wall_banner": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "light_gray_wall_banner": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "cyan_wall_banner": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "purple_wall_banner": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "blue_wall_banner": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "brown_wall_banner": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "green_wall_banner": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "red_wall_banner": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "black_wall_banner": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "red_sandstone": {
+      "mapColor": "COLOR_ORANGE",
+      "mapColorId": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "chiseled_red_sandstone": {
+      "mapColor": "COLOR_ORANGE",
+      "mapColorId": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "cut_red_sandstone": {
+      "mapColor": "COLOR_ORANGE",
+      "mapColorId": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "red_sandstone_stairs": {
+      "mapColor": "COLOR_ORANGE",
+      "mapColorId": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "oak_slab": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "spruce_slab": {
+      "mapColor": "PODZOL",
+      "mapColorId": 34,
+      "rgb": [
+        129,
+        86,
+        49
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "birch_slab": {
+      "mapColor": "SAND",
+      "mapColorId": 2,
+      "rgb": [
+        247,
+        233,
+        163
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "jungle_slab": {
+      "mapColor": "DIRT",
+      "mapColorId": 10,
+      "rgb": [
+        151,
+        109,
+        77
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "acacia_slab": {
+      "mapColor": "COLOR_ORANGE",
+      "mapColorId": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "cherry_slab": {
+      "mapColor": "TERRACOTTA_WHITE",
+      "mapColorId": 36,
+      "rgb": [
+        209,
+        177,
+        161
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "dark_oak_slab": {
+      "mapColor": "COLOR_BROWN",
+      "mapColorId": 26,
+      "rgb": [
+        102,
+        76,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "pale_oak_slab": {
+      "mapColor": "QUARTZ",
+      "mapColorId": 14,
+      "rgb": [
+        255,
+        252,
+        245
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "mangrove_slab": {
+      "mapColor": "COLOR_RED",
+      "mapColorId": 28,
+      "rgb": [
+        153,
+        51,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "bamboo_slab": {
+      "mapColor": "COLOR_YELLOW",
+      "mapColorId": 18,
+      "rgb": [
+        229,
+        229,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "bamboo_mosaic_slab": {
+      "mapColor": "COLOR_YELLOW",
+      "mapColorId": 18,
+      "rgb": [
+        229,
+        229,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "stone_slab": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "smooth_stone_slab": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "sandstone_slab": {
+      "mapColor": "SAND",
+      "mapColorId": 2,
+      "rgb": [
+        247,
+        233,
+        163
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "cut_sandstone_slab": {
+      "mapColor": "SAND",
+      "mapColorId": 2,
+      "rgb": [
+        247,
+        233,
+        163
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "petrified_oak_slab": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "cobblestone_slab": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "brick_slab": {
+      "mapColor": "COLOR_RED",
+      "mapColorId": 28,
+      "rgb": [
+        153,
+        51,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "stone_brick_slab": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "mud_brick_slab": {
+      "mapColor": "TERRACOTTA_LIGHT_GRAY",
+      "mapColorId": 44,
+      "rgb": [
+        135,
+        107,
+        98
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "nether_brick_slab": {
+      "mapColor": "NETHER",
+      "mapColorId": 35,
+      "rgb": [
+        112,
+        2,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "quartz_slab": {
+      "mapColor": "QUARTZ",
+      "mapColorId": 14,
+      "rgb": [
+        255,
+        252,
+        245
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "red_sandstone_slab": {
+      "mapColor": "COLOR_ORANGE",
+      "mapColorId": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "cut_red_sandstone_slab": {
+      "mapColor": "COLOR_ORANGE",
+      "mapColorId": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "purpur_slab": {
+      "mapColor": "COLOR_MAGENTA",
+      "mapColorId": 16,
+      "rgb": [
+        178,
+        76,
+        216
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "smooth_stone": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "smooth_sandstone": {
+      "mapColor": "SAND",
+      "mapColorId": 2,
+      "rgb": [
+        247,
+        233,
+        163
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "smooth_quartz": {
+      "mapColor": "QUARTZ",
+      "mapColorId": 14,
+      "rgb": [
+        255,
+        252,
+        245
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "smooth_red_sandstone": {
+      "mapColor": "COLOR_ORANGE",
+      "mapColorId": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "spruce_fence_gate": {
+      "mapColor": "PODZOL",
+      "mapColorId": 34,
+      "rgb": [
+        129,
+        86,
+        49
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "birch_fence_gate": {
+      "mapColor": "SAND",
+      "mapColorId": 2,
+      "rgb": [
+        247,
+        233,
+        163
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "jungle_fence_gate": {
+      "mapColor": "DIRT",
+      "mapColorId": 10,
+      "rgb": [
+        151,
+        109,
+        77
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "acacia_fence_gate": {
+      "mapColor": "COLOR_ORANGE",
+      "mapColorId": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "cherry_fence_gate": {
+      "mapColor": "TERRACOTTA_WHITE",
+      "mapColorId": 36,
+      "rgb": [
+        209,
+        177,
+        161
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "dark_oak_fence_gate": {
+      "mapColor": "COLOR_BROWN",
+      "mapColorId": 26,
+      "rgb": [
+        102,
+        76,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "pale_oak_fence_gate": {
+      "mapColor": "QUARTZ",
+      "mapColorId": 14,
+      "rgb": [
+        255,
+        252,
+        245
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "mangrove_fence_gate": {
+      "mapColor": "COLOR_RED",
+      "mapColorId": 28,
+      "rgb": [
+        153,
+        51,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "bamboo_fence_gate": {
+      "mapColor": "COLOR_YELLOW",
+      "mapColorId": 18,
+      "rgb": [
+        229,
+        229,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "spruce_fence": {
+      "mapColor": "PODZOL",
+      "mapColorId": 34,
+      "rgb": [
+        129,
+        86,
+        49
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "birch_fence": {
+      "mapColor": "SAND",
+      "mapColorId": 2,
+      "rgb": [
+        247,
+        233,
+        163
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "jungle_fence": {
+      "mapColor": "DIRT",
+      "mapColorId": 10,
+      "rgb": [
+        151,
+        109,
+        77
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "acacia_fence": {
+      "mapColor": "COLOR_ORANGE",
+      "mapColorId": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "cherry_fence": {
+      "mapColor": "TERRACOTTA_WHITE",
+      "mapColorId": 36,
+      "rgb": [
+        209,
+        177,
+        161
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "dark_oak_fence": {
+      "mapColor": "COLOR_BROWN",
+      "mapColorId": 26,
+      "rgb": [
+        102,
+        76,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "pale_oak_fence": {
+      "mapColor": "QUARTZ",
+      "mapColorId": 14,
+      "rgb": [
+        255,
+        252,
+        245
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "mangrove_fence": {
+      "mapColor": "COLOR_RED",
+      "mapColorId": 28,
+      "rgb": [
+        153,
+        51,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "bamboo_fence": {
+      "mapColor": "COLOR_YELLOW",
+      "mapColorId": 18,
+      "rgb": [
+        229,
+        229,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "spruce_door": {
+      "mapColor": "PODZOL",
+      "mapColorId": 34,
+      "rgb": [
+        129,
+        86,
+        49
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "birch_door": {
+      "mapColor": "SAND",
+      "mapColorId": 2,
+      "rgb": [
+        247,
+        233,
+        163
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "jungle_door": {
+      "mapColor": "DIRT",
+      "mapColorId": 10,
+      "rgb": [
+        151,
+        109,
+        77
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "acacia_door": {
+      "mapColor": "COLOR_ORANGE",
+      "mapColorId": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "cherry_door": {
+      "mapColor": "TERRACOTTA_WHITE",
+      "mapColorId": 36,
+      "rgb": [
+        209,
+        177,
+        161
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "dark_oak_door": {
+      "mapColor": "COLOR_BROWN",
+      "mapColorId": 26,
+      "rgb": [
+        102,
+        76,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "pale_oak_door": {
+      "mapColor": "QUARTZ",
+      "mapColorId": 14,
+      "rgb": [
+        255,
+        252,
+        245
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "mangrove_door": {
+      "mapColor": "COLOR_RED",
+      "mapColorId": 28,
+      "rgb": [
+        153,
+        51,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "bamboo_door": {
+      "mapColor": "COLOR_YELLOW",
+      "mapColorId": 18,
+      "rgb": [
+        229,
+        229,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "chorus_plant": {
+      "mapColor": "COLOR_PURPLE",
+      "mapColorId": 24,
+      "rgb": [
+        127,
+        63,
+        178
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "chorus_flower": {
+      "mapColor": "COLOR_PURPLE",
+      "mapColorId": 24,
+      "rgb": [
+        127,
+        63,
+        178
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "purpur_block": {
+      "mapColor": "COLOR_MAGENTA",
+      "mapColorId": 16,
+      "rgb": [
+        178,
+        76,
+        216
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "purpur_pillar": {
+      "mapColor": "COLOR_MAGENTA",
+      "mapColorId": 16,
+      "rgb": [
+        178,
+        76,
+        216
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "purpur_stairs": {
+      "mapColor": "COLOR_MAGENTA",
+      "mapColorId": 16,
+      "rgb": [
+        178,
+        76,
+        216
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "end_stone_bricks": {
+      "mapColor": "SAND",
+      "mapColorId": 2,
+      "rgb": [
+        247,
+        233,
+        163
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "torchflower_crop": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "pitcher_crop": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "pitcher_plant": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "beetroots": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "dirt_path": {
+      "mapColor": "DIRT",
+      "mapColorId": 10,
+      "rgb": [
+        151,
+        109,
+        77
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "end_gateway": {
+      "mapColor": "COLOR_BLACK",
+      "mapColorId": 29,
+      "rgb": [
+        25,
+        25,
+        25
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "repeating_command_block": {
+      "mapColor": "COLOR_PURPLE",
+      "mapColorId": 24,
+      "rgb": [
+        127,
+        63,
+        178
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "chain_command_block": {
+      "mapColor": "COLOR_GREEN",
+      "mapColorId": 27,
+      "rgb": [
+        102,
+        127,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "frosted_ice": {
+      "mapColor": "ICE",
+      "mapColorId": 5,
+      "rgb": [
+        160,
+        160,
+        255
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "magma_block": {
+      "mapColor": "NETHER",
+      "mapColorId": 35,
+      "rgb": [
+        112,
+        2,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "nether_wart_block": {
+      "mapColor": "COLOR_RED",
+      "mapColorId": 28,
+      "rgb": [
+        153,
+        51,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "red_nether_bricks": {
+      "mapColor": "NETHER",
+      "mapColorId": 35,
+      "rgb": [
+        112,
+        2,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "bone_block": {
+      "mapColor": "SAND",
+      "mapColorId": 2,
+      "rgb": [
+        247,
+        233,
+        163
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "observer": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "shulker_box": {
+      "mapColor": "COLOR_PURPLE",
+      "mapColorId": 24,
+      "rgb": [
+        127,
+        63,
+        178
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "white_shulker_box": {
+      "mapColor": "SNOW",
+      "mapColorId": 8,
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "orange_shulker_box": {
+      "mapColor": "COLOR_ORANGE",
+      "mapColorId": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "magenta_shulker_box": {
+      "mapColor": "COLOR_MAGENTA",
+      "mapColorId": 16,
+      "rgb": [
+        178,
+        76,
+        216
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "light_blue_shulker_box": {
+      "mapColor": "COLOR_LIGHT_BLUE",
+      "mapColorId": 17,
+      "rgb": [
+        102,
+        153,
+        216
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "yellow_shulker_box": {
+      "mapColor": "COLOR_YELLOW",
+      "mapColorId": 18,
+      "rgb": [
+        229,
+        229,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "lime_shulker_box": {
+      "mapColor": "COLOR_LIGHT_GREEN",
+      "mapColorId": 19,
+      "rgb": [
+        127,
+        204,
+        25
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "pink_shulker_box": {
+      "mapColor": "COLOR_PINK",
+      "mapColorId": 20,
+      "rgb": [
+        242,
+        127,
+        165
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "gray_shulker_box": {
+      "mapColor": "COLOR_GRAY",
+      "mapColorId": 21,
+      "rgb": [
+        76,
+        76,
+        76
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "light_gray_shulker_box": {
+      "mapColor": "COLOR_LIGHT_GRAY",
+      "mapColorId": 22,
+      "rgb": [
+        153,
+        153,
+        153
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "cyan_shulker_box": {
+      "mapColor": "COLOR_CYAN",
+      "mapColorId": 23,
+      "rgb": [
+        76,
+        127,
+        153
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "purple_shulker_box": {
+      "mapColor": "TERRACOTTA_PURPLE",
+      "mapColorId": 46,
+      "rgb": [
+        122,
+        73,
+        88
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "blue_shulker_box": {
+      "mapColor": "COLOR_BLUE",
+      "mapColorId": 25,
+      "rgb": [
+        51,
+        76,
+        178
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "brown_shulker_box": {
+      "mapColor": "COLOR_BROWN",
+      "mapColorId": 26,
+      "rgb": [
+        102,
+        76,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "green_shulker_box": {
+      "mapColor": "COLOR_GREEN",
+      "mapColorId": 27,
+      "rgb": [
+        102,
+        127,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "red_shulker_box": {
+      "mapColor": "COLOR_RED",
+      "mapColorId": 28,
+      "rgb": [
+        153,
+        51,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "black_shulker_box": {
+      "mapColor": "COLOR_BLACK",
+      "mapColorId": 29,
+      "rgb": [
+        25,
+        25,
+        25
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "kelp": {
+      "mapColor": "WATER",
+      "mapColorId": 12,
+      "rgb": [
+        64,
+        64,
+        255
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "kelp_plant": {
+      "mapColor": "WATER",
+      "mapColorId": 12,
+      "rgb": [
+        64,
+        64,
+        255
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "dried_kelp_block": {
+      "mapColor": "COLOR_GREEN",
+      "mapColorId": 27,
+      "rgb": [
+        102,
+        127,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "turtle_egg": {
+      "mapColor": "SAND",
+      "mapColorId": 2,
+      "rgb": [
+        247,
+        233,
+        163
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "sniffer_egg": {
+      "mapColor": "COLOR_RED",
+      "mapColorId": 28,
+      "rgb": [
+        153,
+        51,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "dried_ghast": {
+      "mapColor": "COLOR_GRAY",
+      "mapColorId": 21,
+      "rgb": [
+        76,
+        76,
+        76
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "dead_tube_coral_block": {
+      "mapColor": "COLOR_GRAY",
+      "mapColorId": 21,
+      "rgb": [
+        76,
+        76,
+        76
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "dead_brain_coral_block": {
+      "mapColor": "COLOR_GRAY",
+      "mapColorId": 21,
+      "rgb": [
+        76,
+        76,
+        76
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "dead_bubble_coral_block": {
+      "mapColor": "COLOR_GRAY",
+      "mapColorId": 21,
+      "rgb": [
+        76,
+        76,
+        76
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "dead_fire_coral_block": {
+      "mapColor": "COLOR_GRAY",
+      "mapColorId": 21,
+      "rgb": [
+        76,
+        76,
+        76
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "dead_horn_coral_block": {
+      "mapColor": "COLOR_GRAY",
+      "mapColorId": 21,
+      "rgb": [
+        76,
+        76,
+        76
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "tube_coral_block": {
+      "mapColor": "COLOR_BLUE",
+      "mapColorId": 25,
+      "rgb": [
+        51,
+        76,
+        178
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "brain_coral_block": {
+      "mapColor": "COLOR_PINK",
+      "mapColorId": 20,
+      "rgb": [
+        242,
+        127,
+        165
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "bubble_coral_block": {
+      "mapColor": "COLOR_PURPLE",
+      "mapColorId": 24,
+      "rgb": [
+        127,
+        63,
+        178
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "fire_coral_block": {
+      "mapColor": "COLOR_RED",
+      "mapColorId": 28,
+      "rgb": [
+        153,
+        51,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "horn_coral_block": {
+      "mapColor": "COLOR_YELLOW",
+      "mapColorId": 18,
+      "rgb": [
+        229,
+        229,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "dead_tube_coral": {
+      "mapColor": "COLOR_GRAY",
+      "mapColorId": 21,
+      "rgb": [
+        76,
+        76,
+        76
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "dead_brain_coral": {
+      "mapColor": "COLOR_GRAY",
+      "mapColorId": 21,
+      "rgb": [
+        76,
+        76,
+        76
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "dead_bubble_coral": {
+      "mapColor": "COLOR_GRAY",
+      "mapColorId": 21,
+      "rgb": [
+        76,
+        76,
+        76
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "dead_fire_coral": {
+      "mapColor": "COLOR_GRAY",
+      "mapColorId": 21,
+      "rgb": [
+        76,
+        76,
+        76
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "dead_horn_coral": {
+      "mapColor": "COLOR_GRAY",
+      "mapColorId": 21,
+      "rgb": [
+        76,
+        76,
+        76
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "tube_coral": {
+      "mapColor": "COLOR_BLUE",
+      "mapColorId": 25,
+      "rgb": [
+        51,
+        76,
+        178
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "brain_coral": {
+      "mapColor": "COLOR_PINK",
+      "mapColorId": 20,
+      "rgb": [
+        242,
+        127,
+        165
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "bubble_coral": {
+      "mapColor": "COLOR_PURPLE",
+      "mapColorId": 24,
+      "rgb": [
+        127,
+        63,
+        178
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "fire_coral": {
+      "mapColor": "COLOR_RED",
+      "mapColorId": 28,
+      "rgb": [
+        153,
+        51,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "horn_coral": {
+      "mapColor": "COLOR_YELLOW",
+      "mapColorId": 18,
+      "rgb": [
+        229,
+        229,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "dead_tube_coral_fan": {
+      "mapColor": "COLOR_GRAY",
+      "mapColorId": 21,
+      "rgb": [
+        76,
+        76,
+        76
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "dead_brain_coral_fan": {
+      "mapColor": "COLOR_GRAY",
+      "mapColorId": 21,
+      "rgb": [
+        76,
+        76,
+        76
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "dead_bubble_coral_fan": {
+      "mapColor": "COLOR_GRAY",
+      "mapColorId": 21,
+      "rgb": [
+        76,
+        76,
+        76
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "dead_fire_coral_fan": {
+      "mapColor": "COLOR_GRAY",
+      "mapColorId": 21,
+      "rgb": [
+        76,
+        76,
+        76
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "dead_horn_coral_fan": {
+      "mapColor": "COLOR_GRAY",
+      "mapColorId": 21,
+      "rgb": [
+        76,
+        76,
+        76
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "tube_coral_fan": {
+      "mapColor": "COLOR_BLUE",
+      "mapColorId": 25,
+      "rgb": [
+        51,
+        76,
+        178
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "brain_coral_fan": {
+      "mapColor": "COLOR_PINK",
+      "mapColorId": 20,
+      "rgb": [
+        242,
+        127,
+        165
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "bubble_coral_fan": {
+      "mapColor": "COLOR_PURPLE",
+      "mapColorId": 24,
+      "rgb": [
+        127,
+        63,
+        178
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "fire_coral_fan": {
+      "mapColor": "COLOR_RED",
+      "mapColorId": 28,
+      "rgb": [
+        153,
+        51,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "horn_coral_fan": {
+      "mapColor": "COLOR_YELLOW",
+      "mapColorId": 18,
+      "rgb": [
+        229,
+        229,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "dead_tube_coral_wall_fan": {
+      "mapColor": "COLOR_GRAY",
+      "mapColorId": 21,
+      "rgb": [
+        76,
+        76,
+        76
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "dead_brain_coral_wall_fan": {
+      "mapColor": "COLOR_GRAY",
+      "mapColorId": 21,
+      "rgb": [
+        76,
+        76,
+        76
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "dead_bubble_coral_wall_fan": {
+      "mapColor": "COLOR_GRAY",
+      "mapColorId": 21,
+      "rgb": [
+        76,
+        76,
+        76
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "dead_fire_coral_wall_fan": {
+      "mapColor": "COLOR_GRAY",
+      "mapColorId": 21,
+      "rgb": [
+        76,
+        76,
+        76
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "dead_horn_coral_wall_fan": {
+      "mapColor": "COLOR_GRAY",
+      "mapColorId": 21,
+      "rgb": [
+        76,
+        76,
+        76
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "tube_coral_wall_fan": {
+      "mapColor": "COLOR_BLUE",
+      "mapColorId": 25,
+      "rgb": [
+        51,
+        76,
+        178
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "brain_coral_wall_fan": {
+      "mapColor": "COLOR_PINK",
+      "mapColorId": 20,
+      "rgb": [
+        242,
+        127,
+        165
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "bubble_coral_wall_fan": {
+      "mapColor": "COLOR_PURPLE",
+      "mapColorId": 24,
+      "rgb": [
+        127,
+        63,
+        178
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "fire_coral_wall_fan": {
+      "mapColor": "COLOR_RED",
+      "mapColorId": 28,
+      "rgb": [
+        153,
+        51,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "horn_coral_wall_fan": {
+      "mapColor": "COLOR_YELLOW",
+      "mapColorId": 18,
+      "rgb": [
+        229,
+        229,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "sea_pickle": {
+      "mapColor": "COLOR_GREEN",
+      "mapColorId": 27,
+      "rgb": [
+        102,
+        127,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "blue_ice": {
+      "mapColor": "ICE",
+      "mapColorId": 5,
+      "rgb": [
+        160,
+        160,
+        255
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "conduit": {
+      "mapColor": "DIAMOND",
+      "mapColorId": 31,
+      "rgb": [
+        92,
+        219,
+        213
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "bamboo_sapling": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "bamboo": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "bubble_column": {
+      "mapColor": "WATER",
+      "mapColorId": 12,
+      "rgb": [
+        64,
+        64,
+        255
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "polished_granite_stairs": {
+      "mapColor": "DIRT",
+      "mapColorId": 10,
+      "rgb": [
+        151,
+        109,
+        77
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "smooth_red_sandstone_stairs": {
+      "mapColor": "COLOR_ORANGE",
+      "mapColorId": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "mossy_stone_brick_stairs": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "polished_diorite_stairs": {
+      "mapColor": "QUARTZ",
+      "mapColorId": 14,
+      "rgb": [
+        255,
+        252,
+        245
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "mossy_cobblestone_stairs": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "end_stone_brick_stairs": {
+      "mapColor": "SAND",
+      "mapColorId": 2,
+      "rgb": [
+        247,
+        233,
+        163
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "stone_stairs": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "smooth_sandstone_stairs": {
+      "mapColor": "SAND",
+      "mapColorId": 2,
+      "rgb": [
+        247,
+        233,
+        163
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "smooth_quartz_stairs": {
+      "mapColor": "QUARTZ",
+      "mapColorId": 14,
+      "rgb": [
+        255,
+        252,
+        245
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "granite_stairs": {
+      "mapColor": "DIRT",
+      "mapColorId": 10,
+      "rgb": [
+        151,
+        109,
+        77
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "andesite_stairs": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "red_nether_brick_stairs": {
+      "mapColor": "NETHER",
+      "mapColorId": 35,
+      "rgb": [
+        112,
+        2,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "polished_andesite_stairs": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "diorite_stairs": {
+      "mapColor": "QUARTZ",
+      "mapColorId": 14,
+      "rgb": [
+        255,
+        252,
+        245
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "scaffolding": {
+      "mapColor": "SAND",
+      "mapColorId": 2,
+      "rgb": [
+        247,
+        233,
+        163
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "loom": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "barrel": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "smoker": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "blast_furnace": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "cartography_table": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "fletching_table": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "grindstone": {
+      "mapColor": "METAL",
+      "mapColorId": 6,
+      "rgb": [
+        167,
+        167,
+        167
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "lectern": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "smithing_table": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "stonecutter": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "bell": {
+      "mapColor": "GOLD",
+      "mapColorId": 30,
+      "rgb": [
+        250,
+        238,
+        77
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "lantern": {
+      "mapColor": "METAL",
+      "mapColorId": 6,
+      "rgb": [
+        167,
+        167,
+        167
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "soul_lantern": {
+      "mapColor": "METAL",
+      "mapColorId": 6,
+      "rgb": [
+        167,
+        167,
+        167
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "campfire": {
+      "mapColor": "PODZOL",
+      "mapColorId": 34,
+      "rgb": [
+        129,
+        86,
+        49
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "soul_campfire": {
+      "mapColor": "PODZOL",
+      "mapColorId": 34,
+      "rgb": [
+        129,
+        86,
+        49
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "sweet_berry_bush": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "warped_stem": {
+      "mapColor": "WARPED_STEM",
+      "mapColorId": 56,
+      "rgb": [
+        58,
+        142,
+        140
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "stripped_warped_stem": {
+      "mapColor": "WARPED_STEM",
+      "mapColorId": 56,
+      "rgb": [
+        58,
+        142,
+        140
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "warped_hyphae": {
+      "mapColor": "WARPED_HYPHAE",
+      "mapColorId": 57,
+      "rgb": [
+        86,
+        44,
+        62
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "stripped_warped_hyphae": {
+      "mapColor": "WARPED_HYPHAE",
+      "mapColorId": 57,
+      "rgb": [
+        86,
+        44,
+        62
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "warped_nylium": {
+      "mapColor": "WARPED_NYLIUM",
+      "mapColorId": 55,
+      "rgb": [
+        22,
+        126,
+        134
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "warped_fungus": {
+      "mapColor": "COLOR_CYAN",
+      "mapColorId": 23,
+      "rgb": [
+        76,
+        127,
+        153
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "warped_wart_block": {
+      "mapColor": "WARPED_WART_BLOCK",
+      "mapColorId": 58,
+      "rgb": [
+        20,
+        180,
+        133
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "warped_roots": {
+      "mapColor": "COLOR_CYAN",
+      "mapColorId": 23,
+      "rgb": [
+        76,
+        127,
+        153
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "nether_sprouts": {
+      "mapColor": "COLOR_CYAN",
+      "mapColorId": 23,
+      "rgb": [
+        76,
+        127,
+        153
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "crimson_stem": {
+      "mapColor": "CRIMSON_STEM",
+      "mapColorId": 53,
+      "rgb": [
+        148,
+        63,
+        97
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "stripped_crimson_stem": {
+      "mapColor": "CRIMSON_STEM",
+      "mapColorId": 53,
+      "rgb": [
+        148,
+        63,
+        97
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "crimson_hyphae": {
+      "mapColor": "CRIMSON_HYPHAE",
+      "mapColorId": 54,
+      "rgb": [
+        92,
+        25,
+        29
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "stripped_crimson_hyphae": {
+      "mapColor": "CRIMSON_HYPHAE",
+      "mapColorId": 54,
+      "rgb": [
+        92,
+        25,
+        29
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "crimson_nylium": {
+      "mapColor": "CRIMSON_NYLIUM",
+      "mapColorId": 52,
+      "rgb": [
+        189,
+        48,
+        49
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "crimson_fungus": {
+      "mapColor": "NETHER",
+      "mapColorId": 35,
+      "rgb": [
+        112,
+        2,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "shroomlight": {
+      "mapColor": "COLOR_RED",
+      "mapColorId": 28,
+      "rgb": [
+        153,
+        51,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "weeping_vines": {
+      "mapColor": "NETHER",
+      "mapColorId": 35,
+      "rgb": [
+        112,
+        2,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "weeping_vines_plant": {
+      "mapColor": "NETHER",
+      "mapColorId": 35,
+      "rgb": [
+        112,
+        2,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "twisting_vines": {
+      "mapColor": "COLOR_CYAN",
+      "mapColorId": 23,
+      "rgb": [
+        76,
+        127,
+        153
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "twisting_vines_plant": {
+      "mapColor": "COLOR_CYAN",
+      "mapColorId": 23,
+      "rgb": [
+        76,
+        127,
+        153
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "crimson_roots": {
+      "mapColor": "NETHER",
+      "mapColorId": 35,
+      "rgb": [
+        112,
+        2,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "crimson_planks": {
+      "mapColor": "CRIMSON_STEM",
+      "mapColorId": 53,
+      "rgb": [
+        148,
+        63,
+        97
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "warped_planks": {
+      "mapColor": "WARPED_STEM",
+      "mapColorId": 56,
+      "rgb": [
+        58,
+        142,
+        140
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "crimson_slab": {
+      "mapColor": "CRIMSON_STEM",
+      "mapColorId": 53,
+      "rgb": [
+        148,
+        63,
+        97
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "warped_slab": {
+      "mapColor": "WARPED_STEM",
+      "mapColorId": 56,
+      "rgb": [
+        58,
+        142,
+        140
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "crimson_pressure_plate": {
+      "mapColor": "CRIMSON_STEM",
+      "mapColorId": 53,
+      "rgb": [
+        148,
+        63,
+        97
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "warped_pressure_plate": {
+      "mapColor": "WARPED_STEM",
+      "mapColorId": 56,
+      "rgb": [
+        58,
+        142,
+        140
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "crimson_fence": {
+      "mapColor": "CRIMSON_STEM",
+      "mapColorId": 53,
+      "rgb": [
+        148,
+        63,
+        97
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "warped_fence": {
+      "mapColor": "WARPED_STEM",
+      "mapColorId": 56,
+      "rgb": [
+        58,
+        142,
+        140
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "crimson_trapdoor": {
+      "mapColor": "CRIMSON_STEM",
+      "mapColorId": 53,
+      "rgb": [
+        148,
+        63,
+        97
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "warped_trapdoor": {
+      "mapColor": "WARPED_STEM",
+      "mapColorId": 56,
+      "rgb": [
+        58,
+        142,
+        140
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "crimson_fence_gate": {
+      "mapColor": "CRIMSON_STEM",
+      "mapColorId": 53,
+      "rgb": [
+        148,
+        63,
+        97
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "warped_fence_gate": {
+      "mapColor": "WARPED_STEM",
+      "mapColorId": 56,
+      "rgb": [
+        58,
+        142,
+        140
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "crimson_stairs": {
+      "mapColor": "CRIMSON_STEM",
+      "mapColorId": 53,
+      "rgb": [
+        148,
+        63,
+        97
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "warped_stairs": {
+      "mapColor": "WARPED_STEM",
+      "mapColorId": 56,
+      "rgb": [
+        58,
+        142,
+        140
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "crimson_door": {
+      "mapColor": "CRIMSON_STEM",
+      "mapColorId": 53,
+      "rgb": [
+        148,
+        63,
+        97
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "warped_door": {
+      "mapColor": "WARPED_STEM",
+      "mapColorId": 56,
+      "rgb": [
+        58,
+        142,
+        140
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "crimson_sign": {
+      "mapColor": "CRIMSON_STEM",
+      "mapColorId": 53,
+      "rgb": [
+        148,
+        63,
+        97
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "warped_sign": {
+      "mapColor": "WARPED_STEM",
+      "mapColorId": 56,
+      "rgb": [
+        58,
+        142,
+        140
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "crimson_wall_sign": {
+      "mapColor": "CRIMSON_STEM",
+      "mapColorId": 53,
+      "rgb": [
+        148,
+        63,
+        97
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "warped_wall_sign": {
+      "mapColor": "WARPED_STEM",
+      "mapColorId": 56,
+      "rgb": [
+        58,
+        142,
+        140
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "structure_block": {
+      "mapColor": "COLOR_LIGHT_GRAY",
+      "mapColorId": 22,
+      "rgb": [
+        153,
+        153,
+        153
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "jigsaw": {
+      "mapColor": "COLOR_LIGHT_GRAY",
+      "mapColorId": 22,
+      "rgb": [
+        153,
+        153,
+        153
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "test_block": {
+      "mapColor": "COLOR_LIGHT_GRAY",
+      "mapColorId": 22,
+      "rgb": [
+        153,
+        153,
+        153
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "composter": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "target": {
+      "mapColor": "QUARTZ",
+      "mapColorId": 14,
+      "rgb": [
+        255,
+        252,
+        245
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "bee_nest": {
+      "mapColor": "COLOR_YELLOW",
+      "mapColorId": 18,
+      "rgb": [
+        229,
+        229,
+        51
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "beehive": {
+      "mapColor": "WOOD",
+      "mapColorId": 13,
+      "rgb": [
+        143,
+        119,
+        72
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "honey_block": {
+      "mapColor": "COLOR_ORANGE",
+      "mapColorId": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "honeycomb_block": {
+      "mapColor": "COLOR_ORANGE",
+      "mapColorId": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "netherite_block": {
+      "mapColor": "COLOR_BLACK",
+      "mapColorId": 29,
+      "rgb": [
+        25,
+        25,
+        25
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "ancient_debris": {
+      "mapColor": "COLOR_BLACK",
+      "mapColorId": 29,
+      "rgb": [
+        25,
+        25,
+        25
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "crying_obsidian": {
+      "mapColor": "COLOR_BLACK",
+      "mapColorId": 29,
+      "rgb": [
+        25,
+        25,
+        25
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "respawn_anchor": {
+      "mapColor": "COLOR_BLACK",
+      "mapColorId": 29,
+      "rgb": [
+        25,
+        25,
+        25
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "lodestone": {
+      "mapColor": "METAL",
+      "mapColorId": 6,
+      "rgb": [
+        167,
+        167,
+        167
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "blackstone": {
+      "mapColor": "COLOR_BLACK",
+      "mapColorId": 29,
+      "rgb": [
+        25,
+        25,
+        25
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "blackstone_stairs": {
+      "mapColor": "COLOR_BLACK",
+      "mapColorId": 29,
+      "rgb": [
+        25,
+        25,
+        25
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "polished_blackstone_pressure_plate": {
+      "mapColor": "COLOR_BLACK",
+      "mapColorId": 29,
+      "rgb": [
+        25,
+        25,
+        25
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "chiseled_nether_bricks": {
+      "mapColor": "NETHER",
+      "mapColorId": 35,
+      "rgb": [
+        112,
+        2,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "cracked_nether_bricks": {
+      "mapColor": "NETHER",
+      "mapColorId": 35,
+      "rgb": [
+        112,
+        2,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "candle": {
+      "mapColor": "SAND",
+      "mapColorId": 2,
+      "rgb": [
+        247,
+        233,
+        163
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "white_candle": {
+      "mapColor": "WOOL",
+      "mapColorId": 3,
+      "rgb": [
+        199,
+        199,
+        199
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "orange_candle": {
+      "mapColor": "COLOR_ORANGE",
+      "mapColorId": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "magenta_candle": {
+      "mapColor": "COLOR_MAGENTA",
+      "mapColorId": 16,
+      "rgb": [
+        178,
+        76,
+        216
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "light_blue_candle": {
+      "mapColor": "COLOR_LIGHT_BLUE",
+      "mapColorId": 17,
+      "rgb": [
+        102,
+        153,
+        216
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "yellow_candle": {
+      "mapColor": "COLOR_YELLOW",
+      "mapColorId": 18,
+      "rgb": [
+        229,
+        229,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "lime_candle": {
+      "mapColor": "COLOR_LIGHT_GREEN",
+      "mapColorId": 19,
+      "rgb": [
+        127,
+        204,
+        25
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "pink_candle": {
+      "mapColor": "COLOR_PINK",
+      "mapColorId": 20,
+      "rgb": [
+        242,
+        127,
+        165
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "gray_candle": {
+      "mapColor": "COLOR_GRAY",
+      "mapColorId": 21,
+      "rgb": [
+        76,
+        76,
+        76
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "light_gray_candle": {
+      "mapColor": "COLOR_LIGHT_GRAY",
+      "mapColorId": 22,
+      "rgb": [
+        153,
+        153,
+        153
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "cyan_candle": {
+      "mapColor": "COLOR_CYAN",
+      "mapColorId": 23,
+      "rgb": [
+        76,
+        127,
+        153
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "purple_candle": {
+      "mapColor": "COLOR_PURPLE",
+      "mapColorId": 24,
+      "rgb": [
+        127,
+        63,
+        178
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "blue_candle": {
+      "mapColor": "COLOR_BLUE",
+      "mapColorId": 25,
+      "rgb": [
+        51,
+        76,
+        178
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "brown_candle": {
+      "mapColor": "COLOR_BROWN",
+      "mapColorId": 26,
+      "rgb": [
+        102,
+        76,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "green_candle": {
+      "mapColor": "COLOR_GREEN",
+      "mapColorId": 27,
+      "rgb": [
+        102,
+        127,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "red_candle": {
+      "mapColor": "COLOR_RED",
+      "mapColorId": 28,
+      "rgb": [
+        153,
+        51,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "black_candle": {
+      "mapColor": "COLOR_BLACK",
+      "mapColorId": 29,
+      "rgb": [
+        25,
+        25,
+        25
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "amethyst_block": {
+      "mapColor": "COLOR_PURPLE",
+      "mapColorId": 24,
+      "rgb": [
+        127,
+        63,
+        178
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "budding_amethyst": {
+      "mapColor": "COLOR_PURPLE",
+      "mapColorId": 24,
+      "rgb": [
+        127,
+        63,
+        178
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "amethyst_cluster": {
+      "mapColor": "COLOR_PURPLE",
+      "mapColorId": 24,
+      "rgb": [
+        127,
+        63,
+        178
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "tuff": {
+      "mapColor": "TERRACOTTA_GRAY",
+      "mapColorId": 43,
+      "rgb": [
+        57,
+        41,
+        35
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "calcite": {
+      "mapColor": "TERRACOTTA_WHITE",
+      "mapColorId": 36,
+      "rgb": [
+        209,
+        177,
+        161
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "tinted_glass": {
+      "mapColor": "COLOR_GRAY",
+      "mapColorId": 21,
+      "rgb": [
+        76,
+        76,
+        76
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "powder_snow": {
+      "mapColor": "SNOW",
+      "mapColorId": 8,
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "sculk_sensor": {
+      "mapColor": "COLOR_CYAN",
+      "mapColorId": 23,
+      "rgb": [
+        76,
+        127,
+        153
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "sculk": {
+      "mapColor": "COLOR_BLACK",
+      "mapColorId": 29,
+      "rgb": [
+        25,
+        25,
+        25
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "sculk_vein": {
+      "mapColor": "COLOR_BLACK",
+      "mapColorId": 29,
+      "rgb": [
+        25,
+        25,
+        25
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "sculk_catalyst": {
+      "mapColor": "COLOR_BLACK",
+      "mapColorId": 29,
+      "rgb": [
+        25,
+        25,
+        25
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "sculk_shrieker": {
+      "mapColor": "COLOR_BLACK",
+      "mapColorId": 29,
+      "rgb": [
+        25,
+        25,
+        25
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "copper_block": {
+      "mapColor": "COLOR_ORANGE",
+      "mapColorId": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "exposed_copper": {
+      "mapColor": "TERRACOTTA_LIGHT_GRAY",
+      "mapColorId": 44,
+      "rgb": [
+        135,
+        107,
+        98
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "weathered_copper": {
+      "mapColor": "WARPED_STEM",
+      "mapColorId": 56,
+      "rgb": [
+        58,
+        142,
+        140
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "oxidized_copper": {
+      "mapColor": "WARPED_NYLIUM",
+      "mapColorId": 55,
+      "rgb": [
+        22,
+        126,
+        134
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "deepslate_copper_ore": {
+      "mapColor": "DEEPSLATE",
+      "mapColorId": 59,
+      "rgb": [
+        100,
+        100,
+        100
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "copper_door": {
+      "mapColor": "COLOR_ORANGE",
+      "mapColorId": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "exposed_copper_door": {
+      "mapColor": "TERRACOTTA_LIGHT_GRAY",
+      "mapColorId": 44,
+      "rgb": [
+        135,
+        107,
+        98
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "oxidized_copper_door": {
+      "mapColor": "WARPED_NYLIUM",
+      "mapColorId": 55,
+      "rgb": [
+        22,
+        126,
+        134
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "weathered_copper_door": {
+      "mapColor": "WARPED_STEM",
+      "mapColorId": 56,
+      "rgb": [
+        58,
+        142,
+        140
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "copper_trapdoor": {
+      "mapColor": "COLOR_ORANGE",
+      "mapColorId": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "exposed_copper_trapdoor": {
+      "mapColor": "TERRACOTTA_LIGHT_GRAY",
+      "mapColorId": 44,
+      "rgb": [
+        135,
+        107,
+        98
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "oxidized_copper_trapdoor": {
+      "mapColor": "WARPED_NYLIUM",
+      "mapColorId": 55,
+      "rgb": [
+        22,
+        126,
+        134
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "weathered_copper_trapdoor": {
+      "mapColor": "WARPED_STEM",
+      "mapColorId": 56,
+      "rgb": [
+        58,
+        142,
+        140
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "copper_grate": {
+      "mapColor": "COLOR_ORANGE",
+      "mapColorId": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "exposed_copper_grate": {
+      "mapColor": "TERRACOTTA_LIGHT_GRAY",
+      "mapColorId": 44,
+      "rgb": [
+        135,
+        107,
+        98
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "weathered_copper_grate": {
+      "mapColor": "WARPED_STEM",
+      "mapColorId": 56,
+      "rgb": [
+        58,
+        142,
+        140
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "oxidized_copper_grate": {
+      "mapColor": "WARPED_NYLIUM",
+      "mapColorId": 55,
+      "rgb": [
+        22,
+        126,
+        134
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "copper_bulb": {
+      "mapColor": "COLOR_ORANGE",
+      "mapColorId": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "exposed_copper_bulb": {
+      "mapColor": "TERRACOTTA_LIGHT_GRAY",
+      "mapColorId": 44,
+      "rgb": [
+        135,
+        107,
+        98
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "weathered_copper_bulb": {
+      "mapColor": "WARPED_STEM",
+      "mapColorId": 56,
+      "rgb": [
+        58,
+        142,
+        140
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "oxidized_copper_bulb": {
+      "mapColor": "WARPED_NYLIUM",
+      "mapColorId": 55,
+      "rgb": [
+        22,
+        126,
+        134
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "copper_chest": {
+      "mapColor": "COLOR_ORANGE",
+      "mapColorId": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "exposed_copper_chest": {
+      "mapColor": "TERRACOTTA_LIGHT_GRAY",
+      "mapColorId": 44,
+      "rgb": [
+        135,
+        107,
+        98
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "weathered_copper_chest": {
+      "mapColor": "WARPED_STEM",
+      "mapColorId": 56,
+      "rgb": [
+        58,
+        142,
+        140
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "oxidized_copper_chest": {
+      "mapColor": "WARPED_NYLIUM",
+      "mapColorId": 55,
+      "rgb": [
+        22,
+        126,
+        134
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "copper_golem_statue": {
+      "mapColor": "COLOR_ORANGE",
+      "mapColorId": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "exposed_copper_golem_statue": {
+      "mapColor": "TERRACOTTA_LIGHT_GRAY",
+      "mapColorId": 44,
+      "rgb": [
+        135,
+        107,
+        98
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "weathered_copper_golem_statue": {
+      "mapColor": "WARPED_STEM",
+      "mapColorId": 56,
+      "rgb": [
+        58,
+        142,
+        140
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "oxidized_copper_golem_statue": {
+      "mapColor": "WARPED_NYLIUM",
+      "mapColorId": 55,
+      "rgb": [
+        22,
+        126,
+        134
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "lightning_rod": {
+      "mapColor": "COLOR_ORANGE",
+      "mapColorId": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "exposed_lightning_rod": {
+      "mapColor": "TERRACOTTA_LIGHT_GRAY",
+      "mapColorId": 44,
+      "rgb": [
+        135,
+        107,
+        98
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "weathered_lightning_rod": {
+      "mapColor": "WARPED_STEM",
+      "mapColorId": 56,
+      "rgb": [
+        58,
+        142,
+        140
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "oxidized_lightning_rod": {
+      "mapColor": "WARPED_NYLIUM",
+      "mapColorId": 55,
+      "rgb": [
+        22,
+        126,
+        134
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "pointed_dripstone": {
+      "mapColor": "TERRACOTTA_BROWN",
+      "mapColorId": 48,
+      "rgb": [
+        76,
+        50,
+        35
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "dripstone_block": {
+      "mapColor": "TERRACOTTA_BROWN",
+      "mapColorId": 48,
+      "rgb": [
+        76,
+        50,
+        35
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "cave_vines": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "cave_vines_plant": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "spore_blossom": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "azalea": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "flowering_azalea": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "moss_carpet": {
+      "mapColor": "COLOR_GREEN",
+      "mapColorId": 27,
+      "rgb": [
+        102,
+        127,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "pink_petals": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "wildflowers": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "leaf_litter": {
+      "mapColor": "COLOR_BROWN",
+      "mapColorId": 26,
+      "rgb": [
+        102,
+        76,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "moss_block": {
+      "mapColor": "COLOR_GREEN",
+      "mapColorId": 27,
+      "rgb": [
+        102,
+        127,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "big_dripleaf": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "big_dripleaf_stem": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "small_dripleaf": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "hanging_roots": {
+      "mapColor": "DIRT",
+      "mapColorId": 10,
+      "rgb": [
+        151,
+        109,
+        77
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "rooted_dirt": {
+      "mapColor": "DIRT",
+      "mapColorId": 10,
+      "rgb": [
+        151,
+        109,
+        77
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "mud": {
+      "mapColor": "TERRACOTTA_CYAN",
+      "mapColorId": 45,
+      "rgb": [
+        87,
+        92,
+        92
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "deepslate": {
+      "mapColor": "DEEPSLATE",
+      "mapColorId": 59,
+      "rgb": [
+        100,
+        100,
+        100
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "infested_deepslate": {
+      "mapColor": "DEEPSLATE",
+      "mapColorId": 59,
+      "rgb": [
+        100,
+        100,
+        100
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "raw_iron_block": {
+      "mapColor": "RAW_IRON",
+      "mapColorId": 60,
+      "rgb": [
+        216,
+        175,
+        147
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "raw_copper_block": {
+      "mapColor": "COLOR_ORANGE",
+      "mapColorId": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "raw_gold_block": {
+      "mapColor": "GOLD",
+      "mapColorId": 30,
+      "rgb": [
+        250,
+        238,
+        77
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "ochre_froglight": {
+      "mapColor": "SAND",
+      "mapColorId": 2,
+      "rgb": [
+        247,
+        233,
+        163
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "verdant_froglight": {
+      "mapColor": "GLOW_LICHEN",
+      "mapColorId": 61,
+      "rgb": [
+        127,
+        167,
+        150
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "pearlescent_froglight": {
+      "mapColor": "COLOR_PINK",
+      "mapColorId": 20,
+      "rgb": [
+        242,
+        127,
+        165
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "frogspawn": {
+      "mapColor": "WATER",
+      "mapColorId": 12,
+      "rgb": [
+        64,
+        64,
+        255
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "reinforced_deepslate": {
+      "mapColor": "DEEPSLATE",
+      "mapColorId": 59,
+      "rgb": [
+        100,
+        100,
+        100
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "decorated_pot": {
+      "mapColor": "TERRACOTTA_RED",
+      "mapColorId": 50,
+      "rgb": [
+        142,
+        60,
+        46
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "crafter": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "trial_spawner": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "vault": {
+      "mapColor": "STONE",
+      "mapColorId": 11,
+      "rgb": [
+        112,
+        112,
+        112
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "heavy_core": {
+      "mapColor": "METAL",
+      "mapColorId": 6,
+      "rgb": [
+        167,
+        167,
+        167
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "pale_moss_block": {
+      "mapColor": "COLOR_LIGHT_GRAY",
+      "mapColorId": 22,
+      "rgb": [
+        153,
+        153,
+        153
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": true
+    },
+    "pale_moss_carpet": {
+      "mapColor": "COLOR_LIGHT_GRAY",
+      "mapColorId": 22,
+      "rgb": [
+        153,
+        153,
+        153
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "pale_hanging_moss": {
+      "mapColor": "COLOR_LIGHT_GRAY",
+      "mapColorId": 22,
+      "rgb": [
+        153,
+        153,
+        153
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "open_eyeblossom": {
+      "mapColor": "COLOR_ORANGE",
+      "mapColorId": 15,
+      "rgb": [
+        216,
+        127,
+        51
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "closed_eyeblossom": {
+      "mapColor": "METAL",
+      "mapColorId": 6,
+      "rgb": [
+        167,
+        167,
+        167
+      ],
+      "flammable": false,
+      "pillar": false,
+      "staircaseCube": false
+    },
+    "firefly_bush": {
+      "mapColor": "PLANT",
+      "mapColorId": 7,
+      "rgb": [
+        0,
+        124,
+        0
+      ],
+      "flammable": true,
+      "pillar": false,
+      "staircaseCube": false
+    }
+  }
+}

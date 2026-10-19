@@ -1,0 +1,26 @@
+{
+  "tool": "built-in image_gen",
+  "transparent_background": true,
+  "options": [
+    {
+      "style": "A · 极简几何",
+      "file": "a_minimal.png",
+      "prompt": "Use case: logo-brand. Create ONE original finished square Windows application icon for BuildMeow / 建喵, an offline tool for building pixel pictures and game map blueprints from blocks. A minimal geometric flat vector-style icon: a single clean turquoise cat head silhouette whose ears and muzzle use square grid geometry, with a tiny offset coral square suggesting a placed block. Two short simple navy eyes and one tiny nose. Front view, perfectly balanced, 2 or 3 solid colors only. Flat matte shapes with crisp edges. Mature restrained software branding, contemporary Material aesthetic. No 3D, no shading, no glossy effect, no fur, no big anime eyes, no map scenery, no whisker sticks, no unnecessary outline. Centered single icon, artwork fills 78-82% of square canvas with balanced clear margins. Real alpha transparency outside silhouette (outside rounded square for the blueprint variation). It must be readable on light and dark backgrounds and at small taskbar sizes. No words, letters, numbers, captions, watermarks, copyright characters, existing brand logos or icon sheets. Produce a clean square high-resolution PNG. This is a NEW alternative, do not replicate any previous glossy voxel cat design."
+    },
+    {
+      "style": "B · 复古像素",
+      "file": "b_pixel.png",
+      "prompt": "Use case: logo-brand. Create ONE original finished square Windows application icon for BuildMeow / 建喵, an offline tool for building pixel pictures and game map blueprints from blocks. A beautiful retro pixel-art software icon on an exact low-resolution square pixel grid: an orange-and-ivory cat face made of deliberate large pixels, two small dark eyes, charcoal ears outline, a little moss green square building tile at the lower corner. Warm amber, cream, charcoal and moss palette. Charming 1990s game editor identity. No antialiasing in the drawn pixel edges, no pseudo-3D, no gloss, no giant eyes, no detailed landscape. Strong small-size silhouette. Centered single icon, artwork fills 78-82% of square canvas with balanced clear margins. Real alpha transparency outside silhouette (outside rounded square for the blueprint variation). It must be readable on light and dark backgrounds and at small taskbar sizes. No words, letters, numbers, captions, watermarks, copyright characters, existing brand logos or icon sheets. Produce a clean square high-resolution PNG. This is a NEW alternative, do not replicate any previous glossy voxel cat design."
+    },
+    {
+      "style": "C · 柔和贴纸",
+      "file": "c_sticker.png",
+      "prompt": "Use case: logo-brand. Create ONE original finished square Windows application icon for BuildMeow / 建喵, an offline tool for building pixel pictures and game map blueprints from blocks. A soft flat illustrated sticker-style icon: a lavender round cat face with lilac triangular ears and tiny charcoal eyes, holding one mint green square pixel tile directly under its chin. A simple thick warm-cream contour unifies it into one silhouette. Calm cozy independent desktop application aesthetic, softly rounded shapes, pastel lavender, mint, cream and dark gray. Minimal expressive face. Flat illustration, no 3D, no glossy highlights, no furry detail, no detailed terrain, no anime eyes. Centered single icon, artwork fills 78-82% of square canvas with balanced clear margins. Real alpha transparency outside silhouette (outside rounded square for the blueprint variation). It must be readable on light and dark backgrounds and at small taskbar sizes. No words, letters, numbers, captions, watermarks, copyright characters, existing brand logos or icon sheets. Produce a clean square high-resolution PNG. This is a NEW alternative, do not replicate any previous glossy voxel cat design."
+    },
+    {
+      "style": "D · 蓝图线稿",
+      "file": "d_blueprint.png",
+      "prompt": "Use case: logo-brand. Create ONE original finished square Windows application icon for BuildMeow / 建喵, an offline tool for building pixel pictures and game map blueprints from blocks. An architectural blueprint-style software app icon: a navy rounded square containing a single elegant ivory continuous outline of a cat head, with angular ears formed from stepped grid lines and two small cyan square eyes. A small cyan three-square grid at the base suggests block construction. Deep blue, ivory and cyan only. Precise confident professional design for a map blueprint creation tool. Flat line art, uniform thick stroke readable at 24 pixels, only a few intentional shapes. No 3D, no gloss, no cute big eyes, no detailed landscape. Centered single icon, artwork fills 78-82% of square canvas with balanced clear margins. Real alpha transparency outside silhouette (outside rounded square for the blueprint variation). It must be readable on light and dark backgrounds and at small taskbar sizes. No words, letters, numbers, captions, watermarks, copyright characters, existing brand logos or icon sheets. Produce a clean square high-resolution PNG. This is a NEW alternative, do not replicate any previous glossy voxel cat design."
+    }
+  ]
+}

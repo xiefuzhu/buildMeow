@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "note": "Only the latest release is targeted. 26.1.2 is the client the block colours were read out of (version.json world_version 4790, jar sha1 4e618f09). blockSetAlias 1.20 is the MapartCraft block-state set: block ids of blocks that already existed have not changed, and blocks added since are appended from block_supplement.json. World height is still -64..319.",
+  "worldHeight": {
+    "26.1": { "minY": -64, "maxY": 319 }
+  },
+  "versions": [
+    { "id": "26.1.2", "dataVersion": 4790, "blockSetAlias": "1.20", "verifiedInGame": false }
+  ]
+}
